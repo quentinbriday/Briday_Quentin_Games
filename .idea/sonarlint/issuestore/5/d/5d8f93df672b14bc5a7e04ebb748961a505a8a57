@@ -1,27 +1,2 @@
 
-E
-java:S1068"*Remove this unused "editor" private field.(›çËì8ÃœùÇÍ.
-F
-java:S1068"&Remove this unused "id" private field.(â¼°Ñûÿÿÿÿ8ÃœùÇÍ.
-P
-java:S1068"0Remove this unused "playDuration" private field.(¹–›¹ùÿÿÿÿ8ÃœùÇÍ.
-G
-java:S1068",Remove this unused "gameName" private field.(äŞòò8ÃœùÇÍ.
-J
-java:S1068"/Remove this unused "yearEdition" private field.(é£‰Ô8ÃœùÇÍ.
-E
-java:S1068"*Remove this unused "author" private field.(á™Ï8ÃœùÇÍ.
-G
-java:S1068"'Remove this unused "age" private field.(Æ†´¦şÿÿÿÿ8ÃœùÇÍ.
-I
-java:S1068".Remove this unused "minPlayers" private field.(ç³—ì8ÃœùÇÍ.
-D
-java:S1068")Remove this unused "image" private field.(Êº¼¨8ïŒúÇÍ.
-D
-java:S1068")Remove this unused "price" private field.(÷ºùÆ8ïŒúÇÍ.
-N
-java:S1068".Remove this unused "maxPlayers" private field.(¼Ôóàúÿÿÿÿ8ÃœùÇÍ.
-L
-java:S1068",Remove this unused "category" private field.(şÖİÑüÿÿÿÿ8¤áûÇÍ.
-N
-java:S1068".Remove this unused "difficulty" private field.(¶òé„øÿÿÿÿ8¤áûÇÍ.
+c	java:S107"BConstructor has 13 parameters, which is greater than 7 authorized.(öÔâÆúÿÿÿÿ8á°‚×Í.

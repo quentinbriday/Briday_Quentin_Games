@@ -1,19 +1,2 @@
 
-F
-java:S1068"&Remove this unused "id" private field.(â¼°Ñûÿÿÿÿ8´ÿüÇÍ.
-P
-java:S1068"0Remove this unused "borrowerName" private field.(ìõÅØúÿÿÿÿ8´ÿüÇÍ.
-E
-java:S1068"*Remove this unused "street" private field.(›¸8ëµ€ÈÍ.
-J
-java:S1068"/Remove this unused "houseNumber" private field.(‹º–„8ëµ€ÈÍ.
-M
-java:S1068"-Remove this unused "busNumber" private field.(ì¶ã¯üÿÿÿÿ8ëµ€ÈÍ.
-G
-java:S1068",Remove this unused "postcode" private field.(ˆÊƒü8ëµ€ÈÍ.
-C
-java:S1068"(Remove this unused "city" private field.(“øÌà8ëµ€ÈÍ.
-M
-java:S1068"-Remove this unused "telephone" private field.(Úœ¦Åıÿÿÿÿ8ëµ€ÈÍ.
-I
-java:S1068")Remove this unused "email" private field.(ª«Õìùÿÿÿÿ8ëµ€ÈÍ.
+]	java:S107h"AConstructor has 9 parameters, which is greater than 7 authorized.(òş±Á8ñ°‚×Í.

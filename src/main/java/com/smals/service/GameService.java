@@ -12,16 +12,8 @@ public class GameService {
 
     private GameJDBCRepository gameJDBCRepository = GameJDBCRepository.getInstance();
 
-    public Category findGameCategoryById(int id){
-        return gameJDBCRepository.getGameCategory(id);
-    }
-
     public Game findGameById(int id){
         return gameJDBCRepository.getGame(id);
-    }
-
-    public Borrower findBorrowerById(int id){
-        return gameJDBCRepository.getBorrower(id);
     }
 
     public Game findGameByName(String gameName) {
@@ -30,9 +22,5 @@ public class GameService {
 
     public List<Game> findAllGames() {
         return gameJDBCRepository.getAllGames();
-    }
-
-    public List<Borrow> findAllBorrow() {
-        return gameJDBCRepository.getAllBorrow();
     }
 }

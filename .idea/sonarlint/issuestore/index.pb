@@ -15,3 +15,7 @@ Q
 pom.xml,4\4\442292b8a7efeabbe4cc176709b833b1792140ec
 l
 <src/main/java/com/smals/repositories/GameJDBCRepository.java,d\b\dbb99f5afc308bae93300c1339c83383ed1d3838
+Z
+*src/main/java/com/smals/domain/Borrow.java,0\a\0a21ce98c1da48c092fe677e191db0568ba6ed25
+h
+8src/main/java/com/smals/domain/enums/DifficultyType.java,8\c\8c0a26b556c9d295d5c8bc6fc29811222abd7e4a

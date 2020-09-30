@@ -1,10 +1,66 @@
 
-X	java:S106"9Replace this use of System.out or System.err by a logger.(Îƒ—Æşÿÿÿÿ8È‰§ÈÍ.
-X	java:S106"9Replace this use of System.out or System.err by a logger.(°ç½Ñúÿÿÿÿ8ƒ×œÈÍ.
-S	java:S106"9Replace this use of System.out or System.err by a logger.(âŠ¹–8ƒ×œÈÍ.
-X	java:S106"9Replace this use of System.out or System.err by a logger.(ÇÔû´ûÿÿÿÿ8±Ë¨ÈÍ.
-X	java:S106"9Replace this use of System.out or System.err by a logger.(®ç¾ıúÿÿÿÿ8ƒ‹¯ÈÍ.
-S	java:S106"9Replace this use of System.out or System.err by a logger.(à„ƒ8¡‰“ÈÍ.
-X	java:S106"9Replace this use of System.out or System.err by a logger.(ƒœ½İùÿÿÿÿ8•óªÈÍ.
-X	java:S106"9Replace this use of System.out or System.err by a logger.(­É”×øÿÿÿÿ8˜ÚÈÍ.
-X	java:S106"9Replace this use of System.out or System.err by a logger.(½¦òïüÿÿÿÿ8¡û¯ÉÍ.
+v
+java:S1192‰"SDefine a constant instead of duplicating this literal "Your research --> " 3 times.(¼µŞˆşÿÿÿÿ8ñ°‚×Í.
+U	java:S106Î"9Replace this use of System.out or System.err by a logger.(øœË@8ñ°‚×Í.
+W
+java:S1191"5Use classes from the Java API instead of Sun classes.(éˆĞğüÿÿÿÿ8ñ°‚×Í.
+[	java:S106¢"9Replace this use of System.out or System.err by a logger.(‚‰×ıÿÿÿÿ8ñ°‚×Í.
+X
+java:S1141°"5Extract this nested try block into a separate method.(¡»¢üùÿÿÿÿ8ñ°‚×Í.
+U
+java:S1854`"9Remove this useless assignment to local variable "level".(À…³"8ÔĞ¸îÍ.
+U	java:S106\"9Replace this use of System.out or System.err by a logger.(çÖä±8ñ°‚×Í.
+[	java:S106Ç"9Replace this use of System.out or System.err by a logger.(öºÌ‰şÿÿÿÿ8ñ°‚×Í.
+Z	java:S106["9Replace this use of System.out or System.err by a logger.(²Äıåøÿÿÿÿ8ñ°‚×Í.
+U	java:S106"9Replace this use of System.out or System.err by a logger.(ÒÏ¯œ8ñ°‚×Í.
+U
+java:S3655ª"7Call "Optional#isPresent()" before accessing the value.(ã«÷…8ñ°‚×Í.
+U	java:S106¯"9Replace this use of System.out or System.err by a logger.(øœË@8ñ°‚×Í.
+U	java:S106{"9Replace this use of System.out or System.err by a logger.(ÔªÃò8ñ°‚×Í.
+U	java:S106"9Replace this use of System.out or System.err by a logger.(à„ƒ8¡‰“ÈÍ.
+[	java:S106‰"9Replace this use of System.out or System.err by a logger.(¼µŞˆşÿÿÿÿ8ñ°‚×Í.
+[	java:S106­"9Replace this use of System.out or System.err by a logger.(ºÁäÑûÿÿÿÿ8ñ°‚×Í.
+Z	java:S106%"9Replace this use of System.out or System.err by a logger.(ñ¾ğÛÿÿÿÿÿ8ñ°‚×Í.
+Z	java:S106'"9Replace this use of System.out or System.err by a logger.(®ç¾ıúÿÿÿÿ8ƒ‹¯ÈÍ.
+Z	java:S106N"9Replace this use of System.out or System.err by a logger.(ÇÔû´ûÿÿÿÿ8±Ë¨ÈÍ.
+U	java:S106$"9Replace this use of System.out or System.err by a logger.(è¯ß8ñ°‚×Í.
+k
+java:S4034©"HReplace this "filter().findFirst().isPresent()" chain with "anyMatch()".(Š¾éÿÿÿÿÿ8ñ°‚×Í.
+Y	java:S125ƒ"<This block of commented-out lines of code should be removed.(µ™¼Û8ñ°‚×Í.
+U	java:S1069"9Replace this use of System.out or System.err by a logger.(îÿä8ñ°‚×Í.
+[	java:S106¾"9Replace this use of System.out or System.err by a logger.(¼µŞˆşÿÿÿÿ8ñ°‚×Í.
+Z	java:S106]"9Replace this use of System.out or System.err by a logger.(®ç¾ıúÿÿÿÿ8ñ°‚×Í.
+U
+java:S1128
+"9Remove this unused import 'javax.swing.text.html.Option'.(¼Òì:8ñ°‚×Í.
+Z	java:S106!"9Replace this use of System.out or System.err by a logger.(ª ©ãúÿÿÿÿ8ñ°‚×Í.
+Z	java:S106t"9Replace this use of System.out or System.err by a logger.(Şàš¬øÿÿÿÿ8ñ°‚×Í.
+Z	java:S106."9Replace this use of System.out or System.err by a logger.(–ø™Ìúÿÿÿÿ8ñ°‚×Í.
+k
+java:S2677±"HUse or store the value returned from "read" instead of throwing it away.(ïéÌÓşÿÿÿÿ8ñ°‚×Í.
+Z	java:S106R"9Replace this use of System.out or System.err by a logger.(ƒœ½İùÿÿÿÿ8•óªÈÍ.
+a
+java:S1128"?Remove this unused import 'sun.security.pkcs.ParsingException'.(éˆĞğüÿÿÿÿ8ñ°‚×Í.
+U	java:S106+"9Replace this use of System.out or System.err by a logger.(‚’™·8ñ°‚×Í.
+[	java:S106¤"9Replace this use of System.out or System.err by a logger.(€±úÂúÿÿÿÿ8ñ°‚×Í.
+U	java:S106"9Replace this use of System.out or System.err by a logger.(›¡šì8ñ°‚×Í.
+V	java:S106½"9Replace this use of System.out or System.err by a logger.(››Ç8ñ°‚×Í.
+U	java:S106f"9Replace this use of System.out or System.err by a logger.(Òº¬¼8ñ°‚×Í.
+k
+java:S2677Ğ"HUse or store the value returned from "read" instead of throwing it away.(ïéÌÓşÿÿÿÿ8ñ°‚×Í.
+Z	java:S106"9Replace this use of System.out or System.err by a logger.(£°‰Çûÿÿÿÿ8ñ°‚×Í.
+[	java:S106¥"9Replace this use of System.out or System.err by a logger.(¼µŞˆşÿÿÿÿ8ñ°‚×Í.
+[	java:S106’"9Replace this use of System.out or System.err by a logger.(ñ”¬µşÿÿÿÿ8ñ°‚×Í.
+G
+java:S1602|",Remove useless curly braces around statement(Äüq8ñ°‚×Í.
+Z	java:S106"9Replace this use of System.out or System.err by a logger.(°ç½Ñúÿÿÿÿ8ƒ×œÈÍ.
+U	java:S106}"9Replace this use of System.out or System.err by a logger.(ñ½Èï8ñ°‚×Í.
+U	java:S106 "9Replace this use of System.out or System.err by a logger.(™ì¼ú8ñ°‚×Í.
+Z	java:S106K"9Replace this use of System.out or System.err by a logger.(Îƒ—Æşÿÿÿÿ8È‰§ÈÍ.
+Z	java:S106""9Replace this use of System.out or System.err by a logger.(Ùç½íşÿÿÿÿ8ñ°‚×Í.
+[	java:S106Ê"9Replace this use of System.out or System.err by a logger.(Ë‡Œˆùÿÿÿÿ8ñ°‚×Í.
+Z	java:S106#"9Replace this use of System.out or System.err by a logger.(š€ËÄûÿÿÿÿ8ñ°‚×Í.
+[	java:S106‡"9Replace this use of System.out or System.err by a logger.(Şâşªùÿÿÿÿ8ñ°‚×Í.
+Z	java:S1061"9Replace this use of System.out or System.err by a logger.(‚ø×ğıÿÿÿÿ8ñ°‚×Í.
+V	java:S106ª"9Replace this use of System.out or System.err by a logger.(ã«÷…8ñ°‚×Í.
+Z	java:S106q"9Replace this use of System.out or System.err by a logger.(ÌıÚ„ûÿÿÿÿ8÷ÙäïÍ.

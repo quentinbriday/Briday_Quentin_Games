@@ -16,6 +16,22 @@ public class Game {
     private Category category;
     private Difficulty difficulty;
 
+    public Game(Builder builder) {
+        this.id = builder.id;
+        this.gameName = builder.gameName;
+        this.editor = builder.editor;
+        this.author = builder.author;
+        this.yearEdition = builder.yearEdition;
+        this.age = builder.age;
+        this.minPlayers = builder.minPlayers;
+        this.maxPlayers = builder.maxPlayers;
+        this.playDuration = builder.playDuration;
+        this.price = builder.price;
+        this.image = builder.image;
+        this.category = builder.category;
+        this.difficulty = builder.difficulty;
+    }
+/*
     public Game(Integer id, String gameName, String editor, String author, int yearEdition, String age, int minPlayers, int maxPlayers, String playDuration, float price, String image, Category category, Difficulty difficulty) {
         this.id = id;
         this.gameName = gameName;
@@ -34,6 +50,84 @@ public class Game {
 
     public Game(String gameName) {
         this.gameName = gameName;
+    }
+    */
+
+    public static class Builder {
+        private Integer id;
+        private String gameName;
+        private String editor;
+        private String author;
+        private int yearEdition;
+        private String age;
+        private int minPlayers;
+        private int maxPlayers;
+        private String playDuration;
+        private float price;
+        private String image;
+        private Category category;
+        private Difficulty difficulty;
+
+        public Builder(String gameName) {
+            this.gameName = gameName;
+        }
+
+        public Builder withId(int id) {
+            this.id = id;
+            return this;
+        }
+
+        public Builder withEditor(String editor) {
+            this.editor = editor;
+            return this;
+        }
+
+        public Builder withAuthor(String author) {
+            this.author = author;
+            return this;
+        }
+
+        public Builder withYearEdition(int yearEdition) {
+            this.yearEdition = yearEdition;
+            return this;
+        }
+        public Builder withAge(String age) {
+            this.age = age;
+            return this;
+        }
+
+        public Builder withMinPlayers(int minPlayers) {
+            this.minPlayers = minPlayers;
+            return this;
+        }
+        public Builder withMaxPlayers(int maxPlayers) {
+            this.maxPlayers = maxPlayers;
+            return this;
+        }
+        public Builder withPlayDuration(String playDuration) {
+            this.playDuration = playDuration;
+            return this;
+        }
+        public Builder withPrice(float price) {
+            this.price = price;
+            return this;
+        }
+        public Builder withImage(String image) {
+            this.image = image;
+            return this;
+        }
+        public Builder withCategory(Category category) {
+            this.category = category;
+            return this;
+        }
+        public Builder withDifficulty(Difficulty difficulty) {
+            this.difficulty = difficulty;
+            return this;
+        }
+
+        public Game build() {
+            return new Game(this);
+        }
     }
 
     @Override
