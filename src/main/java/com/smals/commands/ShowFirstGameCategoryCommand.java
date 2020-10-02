@@ -1,6 +1,6 @@
 package com.smals.commands;
 
-import com.smals.service.CategoryService;
+import com.smals.services.CategoryService;
 
 import static java.lang.Thread.sleep;
 

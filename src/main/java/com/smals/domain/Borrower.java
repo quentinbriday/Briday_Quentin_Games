@@ -1,6 +1,9 @@
 package com.smals.domain;
 
-public class Borrower {
+import java.io.Serializable;
+
+public class Borrower implements Serializable {
+    //TODO : Add builder pattern
 
     private Integer id;
     private String borrowerName;

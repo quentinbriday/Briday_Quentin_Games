@@ -1,6 +1,6 @@
 package com.smals.commands;
 
-import com.smals.service.GameService;
+import com.smals.services.GameService;
 
 import static java.lang.Thread.sleep;
 

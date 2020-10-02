@@ -3,7 +3,7 @@ package com.smals.commands;
 import com.smals.domain.Difficulty;
 import com.smals.domain.Game;
 import com.smals.domain.enums.DifficultyType2;
-import com.smals.service.GameService;
+import com.smals.services.GameService;
 
 import java.util.*;
 import java.util.stream.Collectors;

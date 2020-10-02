@@ -1,6 +1,8 @@
 package com.smals.domain;
 
-public class Game {
+import java.io.Serializable;
+
+public class Game implements Serializable {
 
     private Integer id;
     private String gameName;
@@ -31,27 +33,6 @@ public class Game {
         this.category = builder.category;
         this.difficulty = builder.difficulty;
     }
-/*
-    public Game(Integer id, String gameName, String editor, String author, int yearEdition, String age, int minPlayers, int maxPlayers, String playDuration, float price, String image, Category category, Difficulty difficulty) {
-        this.id = id;
-        this.gameName = gameName;
-        this.editor = editor;
-        this.author = author;
-        this.yearEdition = yearEdition;
-        this.age = age;
-        this.minPlayers = minPlayers;
-        this.maxPlayers = maxPlayers;
-        this.playDuration = playDuration;
-        this.price = price;
-        this.image = image;
-        this.category = category;
-        this.difficulty = difficulty;
-    }
-
-    public Game(String gameName) {
-        this.gameName = gameName;
-    }
-    */
 
     public static class Builder {
         private Integer id;

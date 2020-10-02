@@ -1,7 +1,7 @@
 package com.smals.commands;
 
 import com.smals.domain.Game;
-import com.smals.service.GameService;
+import com.smals.services.GameService;
 
 import java.util.List;
 

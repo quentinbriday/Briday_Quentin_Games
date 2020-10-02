@@ -1,7 +1,7 @@
 package com.smals.commands;
 
 import com.smals.domain.Borrow;
-import com.smals.service.BorrowService;
+import com.smals.services.BorrowService;
 
 import java.io.BufferedReader;
 import java.io.IOException;

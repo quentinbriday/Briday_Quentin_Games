@@ -1,9 +1,12 @@
 package com.smals.domain;
 
+import com.fasterxml.jackson.annotation.JsonAutoDetect;
+
+import java.io.Serializable;
 import java.time.LocalDate;
 import java.util.Date;
 
-public class Borrow {
+public class Borrow implements Serializable {
 
     private Integer id;
     private Game game;

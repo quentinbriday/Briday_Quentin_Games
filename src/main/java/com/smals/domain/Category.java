@@ -1,6 +1,8 @@
 package com.smals.domain;
 
-public class Category {
+import java.io.Serializable;
+
+public class Category implements Serializable {
 
     private String categoryName;
     private Integer id;

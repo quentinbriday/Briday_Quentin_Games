@@ -3,10 +3,10 @@ package com.smals.domain;
 import com.smals.domain.enums.DifficultyType;
 import com.smals.domain.enums.DifficultyType2;
 
+import java.io.Serializable;
 import java.util.*;
-import java.util.stream.Collectors;
 
-public class Difficulty {
+public class Difficulty implements Serializable {
 
     private String difficultyName;
     private Integer id;

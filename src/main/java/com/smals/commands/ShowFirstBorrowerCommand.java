@@ -1,6 +1,6 @@
 package com.smals.commands;
 
-import com.smals.service.BorrowerService;
+import com.smals.services.BorrowerService;
 
 import static java.lang.Thread.sleep;
 

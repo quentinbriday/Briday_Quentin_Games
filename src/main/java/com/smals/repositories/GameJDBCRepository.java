@@ -112,17 +112,4 @@ public class GameJDBCRepository {
         }
         return games;
     }
-/*
-    public Connection createConnection() throws SQLException {
-        try {
-            Class.forName("com.mysql.cj.jdbc.Driver");
-        } catch (ClassNotFoundException e) {
-            e.printStackTrace();
-        }
-        return DriverManager.getConnection("jdbc:mysql://localhost:3306/games"
-                , "root",
-                "");
-    }
-
- */
 }
