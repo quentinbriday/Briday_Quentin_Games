@@ -3,7 +3,6 @@
   <component name="ArtifactsWorkspaceSettings">
     <artifacts-to-build>
       <artifact name="Briday_Quentin_Games:war" />
-      <artifact name="Briday_Quentin_Games:war exploded" />
     </artifacts-to-build>
   </component>
   <component name="AutoImportSettings">
@@ -11,17 +10,32 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="1521c851-f402-4ca0-8e8b-d2c4c7cfb8db" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/5/d/5d8f93df672b14bc5a7e04ebb748961a505a8a57" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/5/d/5d8f93df672b14bc5a7e04ebb748961a505a8a57" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/b/a/ba8027160d7fd6c4c0703113d45a663e67e6047a" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/b/a/ba8027160d7fd6c4c0703113d45a663e67e6047a" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/b/d/bdda57631d0a0e5e7c14802a8572ecb06896f24d" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/b/d/bdda57631d0a0e5e7c14802a8572ecb06896f24d" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/d/b/dbb99f5afc308bae93300c1339c83383ed1d3838" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/d/b/dbb99f5afc308bae93300c1339c83383ed1d3838" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/index.pb" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/index.pb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/META-INF/data.sql" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/META-INF/resources.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/smals/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/smals/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/smals/commands/ShowFirstGameCategoryCommand.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/smals/commands/ShowFirstGameCategoryCommand.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/smals/domain/Borrow.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/smals/domain/Borrow.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/smals/domain/Borrower.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/smals/domain/Borrower.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/smals/domain/Category.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/smals/domain/Category.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/smals/domain/Difficulty.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/smals/domain/Difficulty.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/smals/repositories/GameJDBCRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/smals/repositories/GameJDBCRepository.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/smals/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/smals/Main.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/smals/domain/Game.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/smals/domain/Game.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/smals/repositories/BorrowJDBCRepository.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/smals/repositories/BorrowerJDBCRepository.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/smals/repositories/CategoryJDBCRepository.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/smals/repositories/GameJDBCRepository.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/smals/restservices/GameRestService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/smals/restservices/GameRestService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/smals/services/BorrowService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/smals/services/BorrowService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/smals/services/BorrowerService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/smals/services/BorrowerService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/smals/services/CategoryService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/smals/services/CategoryService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/smals/services/GameService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/smals/services/GameService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/smals/domain/Borrow.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/smals/domain/Borrow.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/smals/domain/Borrower.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/smals/domain/Borrower.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/smals/domain/Category.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/smals/domain/Category.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/com/smals/domain/Difficulty.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/smals/domain/Difficulty.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/smals/domain/Game.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/smals/domain/Game.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/smals/repositories/GameJDBCRepository.class" beforeDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -50,6 +64,12 @@
         <item name="@localhost" type="feb32156:DbDataSourceImpl" />
         <item name="schemas" type="d4e8921:DatabaseStructure$FamilyGroup" />
       </path>
+      <path>
+        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
+        <item name="@localhost" type="feb32156:DbDataSourceImpl" />
+        <item name="schemas" type="d4e8921:DatabaseStructure$FamilyGroup" />
+        <item name="games: schema" type="76f4a085:MysqlImplModel$Schema" />
+      </path>
     </expand>
     <select />
   </component>
@@ -58,18 +78,19 @@
       <list>
         <option value="Interface" />
         <option value="Enum" />
-        <option value="Class" />
         <option value="FxmlFile" />
+        <option value="Class" />
       </list>
     </option>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+    <option name="ROOT_SYNC" value="DONT_SYNC" />
   </component>
   <component name="LogFilters">
     <option name="FILTER_ERRORS" value="false" />
     <option name="FILTER_WARNINGS" value="false" />
-    <option name="FILTER_INFO" value="true" />
+    <option name="FILTER_INFO" value="false" />
     <option name="FILTER_DEBUG" value="true" />
     <option name="CUSTOM_FILTER" />
   </component>
@@ -89,10 +110,14 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$USER_HOME$/Documents/JumpStart/jee7-jpa-04-inheritance-starter" />
+    <property name="last_opened_file_path" value="C:/Program Files/Git/cmd/git.exe" />
     <property name="settings.editor.selected.configurable" value="vcs.Git" />
   </component>
   <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\qub\IdeaProjects\Briday_Quentin_Games\src\main\resources\META-INF" />
+      <recent name="C:\Users\qub\IdeaProjects\Briday_Quentin_Games\src\main\resources" />
+    </key>
     <key name="CreateClassDialog.RecentsKey">
       <recent name="com.smals.domain.commands" />
     </key>
@@ -124,18 +149,12 @@
       </method>
     </configuration>
     <configuration name="TomEE 9.0.37" type="TomeeConfiguration" factoryName="Local" APPLICATION_SERVER_NAME="TomEE 9.0.37" ALTERNATIVE_JRE_ENABLED="false" nameIsGenerated="true">
-      <option name="OPEN_IN_BROWSER_URL" value="http://localhost:8080/Briday_Quentin_Games_war/" />
       <option name="BROWSER_ID" value="a7bb68e0-33c0-4d6f-a81a-aac1fdb870c8" />
       <option name="UPDATING_POLICY" value="restart-server" />
       <deployment>
         <artifact name="Briday_Quentin_Games:war">
           <settings>
             <option name="CONTEXT_PATH" value="/Briday_Quentin_Games_war" />
-          </settings>
-        </artifact>
-        <artifact name="Briday_Quentin_Games:war exploded">
-          <settings>
-            <option name="CONTEXT_PATH" value="/Briday_Quentin_Games_war_exploded" />
           </settings>
         </artifact>
       </deployment>
@@ -199,7 +218,6 @@
         <option name="Make" enabled="true" />
         <option name="BuildArtifacts" enabled="true">
           <artifact name="Briday_Quentin_Games:war" />
-          <artifact name="Briday_Quentin_Games:war exploded" />
         </option>
       </method>
     </configuration>
@@ -227,7 +245,9 @@
       <workItem from="1601497308067" duration="8724000" />
       <workItem from="1601535030262" duration="10091000" />
       <workItem from="1601570583588" duration="10074000" />
-      <workItem from="1601621700145" duration="3592000" />
+      <workItem from="1601621700145" duration="3701000" />
+      <workItem from="1601629711314" duration="47000" />
+      <workItem from="1601968104242" duration="24464000" />
     </task>
     <servers />
   </component>
@@ -285,5 +305,26 @@
       <screen x="0" y="0" width="1280" height="680" />
     </state>
     <state x="297" y="151" key="run.anything.popup/0.0.1280.680/1920.0.1360.728@0.0.1280.680" timestamp="1601398216604" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/smals/services/GameService.java</url>
+          <line>29</line>
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/smals/repositories/JPA/GameJPARepository.java</url>
+          <line>31</line>
+          <option name="timeStamp" value="2" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/smals/repositories/JPA/GameJPARepository.java</url>
+          <line>30</line>
+          <option name="timeStamp" value="3" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>

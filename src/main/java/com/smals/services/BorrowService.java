@@ -1,7 +1,7 @@
 package com.smals.services;
 
 import com.smals.domain.Borrow;
-import com.smals.repositories.BorrowJDBCRepository;
+import com.smals.repositories.JDBC.BorrowJDBCRepository;
 
 import java.util.List;
 

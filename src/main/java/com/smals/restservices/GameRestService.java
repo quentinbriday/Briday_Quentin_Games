@@ -19,7 +19,6 @@ public class GameRestService {
     @GET
     @Produces("application/json")
     public List<Game> findGames(){
-        System.out.println(gameService.findAllGames());
         return gameService.findAllGames();
     }
 

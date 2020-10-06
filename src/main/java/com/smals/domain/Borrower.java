@@ -1,14 +1,20 @@
 package com.smals.domain;
 
+import javax.persistence.*;
 import java.io.Serializable;
 
+@Entity
 public class Borrower implements Serializable {
     //TODO : Add builder pattern
 
+    @Id @GeneratedValue
     private Integer id;
+    @Column(name = "borrower_name", nullable = false)
     private String borrowerName;
     private String street;
+    @Column(name = "house_number")
     private String houseNumber;
+    @Column(name = "bus_number")
     private String busNumber;
     private int postcode;
     private String city;

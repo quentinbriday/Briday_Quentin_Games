@@ -1,4 +1,4 @@
-package com.smals.repositories;
+package com.smals.repositories.JDBC;
 
 import com.smals.domain.Borrow;
 import com.smals.domain.Borrower;

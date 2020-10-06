@@ -1,11 +1,17 @@
 package com.smals.domain;
 
+import javax.persistence.*;
 import java.io.Serializable;
 
+@Entity
 public class Category implements Serializable {
 
+    @Column(name = "category_name", nullable = false)
     private String categoryName;
+    @Id @GeneratedValue
     private Integer id;
+
+    public Category(){}
 
     public Category(String categoryName, Integer id) {
         this.categoryName = categoryName;

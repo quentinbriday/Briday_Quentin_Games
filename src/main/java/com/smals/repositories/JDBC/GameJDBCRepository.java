@@ -1,4 +1,4 @@
-package com.smals.repositories;
+package com.smals.repositories.JDBC;
 
 import com.smals.domain.*;
 import com.smals.repositories.utils.JDBCConnector;
@@ -35,7 +35,7 @@ public class GameJDBCRepository {
                         .withMinPlayers(resultSet.getInt("min_players"))
                         .withMaxPlayers(resultSet.getInt("max_players"))
                         .withPlayDuration(resultSet.getString("play_duration"))
-                        .withPrice(resultSet.getFloat("price"))
+                        .withPrice(resultSet.getBigDecimal("price"))
                         .withImage(resultSet.getString("image"))
                         .withCategory(category)
                         .withDifficulty(difficulty)
@@ -68,7 +68,7 @@ public class GameJDBCRepository {
                         .withMinPlayers(resultSet.getInt("min_players"))
                         .withMaxPlayers(resultSet.getInt("max_players"))
                         .withPlayDuration(resultSet.getString("play_duration"))
-                        .withPrice(resultSet.getFloat("price"))
+                        .withPrice(resultSet.getBigDecimal("price"))
                         .withImage(resultSet.getString("image"))
                         .withCategory(category)
                         .withDifficulty(difficulty)
@@ -100,7 +100,7 @@ public class GameJDBCRepository {
                         .withMinPlayers(resultSet.getInt("min_players"))
                         .withMaxPlayers(resultSet.getInt("max_players"))
                         .withPlayDuration(resultSet.getString("play_duration"))
-                        .withPrice(resultSet.getFloat("price"))
+                        .withPrice(resultSet.getBigDecimal("price"))
                         .withImage(resultSet.getString("image"))
                         .withCategory(category)
                         .withDifficulty(difficulty)

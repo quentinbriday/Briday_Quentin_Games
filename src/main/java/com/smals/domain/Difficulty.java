@@ -3,12 +3,17 @@ package com.smals.domain;
 import com.smals.domain.enums.DifficultyType;
 import com.smals.domain.enums.DifficultyType2;
 
+import javax.persistence.*;
 import java.io.Serializable;
 import java.util.*;
 
+@Entity
 public class Difficulty implements Serializable {
 
+    @Column(name = "difficulty_name", nullable = false)
+    //Maybe using @Enumerated ?
     private String difficultyName;
+    @Id @GeneratedValue
     private Integer id;
 
     public Difficulty(String difficultyName, Integer id) {

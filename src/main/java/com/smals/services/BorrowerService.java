@@ -1,7 +1,7 @@
 package com.smals.services;
 
 import com.smals.domain.Borrower;
-import com.smals.repositories.BorrowerJDBCRepository;
+import com.smals.repositories.JDBC.BorrowerJDBCRepository;
 
 public class BorrowerService {
     private BorrowerJDBCRepository borrowerJDBCRepository = BorrowerJDBCRepository.getInstance();

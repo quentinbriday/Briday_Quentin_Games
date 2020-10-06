@@ -1,4 +1,4 @@
-package com.smals.repositories;
+package com.smals.repositories.JDBC;
 
 import com.smals.domain.Category;
 import com.smals.repositories.utils.JDBCConnector;

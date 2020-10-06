@@ -1,22 +1,38 @@
 package com.smals.domain;
 
+import javax.persistence.*;
 import java.io.Serializable;
+import java.math.BigDecimal;
 
+@Entity
 public class Game implements Serializable {
 
+    @Id @GeneratedValue
     private Integer id;
+    @Column(name = "game_name", nullable = false)
     private String gameName;
     private String editor;
     private String author;
+    @Column(name = "year_edition")
     private int yearEdition;
     private String age;
+    @Column(name = "min_players")
     private int minPlayers;
+    @Column(name = "max_players")
     private int maxPlayers;
-    private String playDuration;
-    private float price;
-    private String image;
+    @OneToOne (fetch = FetchType.LAZY)
+    @JoinColumn(name = "category_id")
     private Category category;
+    @Column(name = "play_duration")
+    private String playDuration;
+    @OneToOne (fetch = FetchType.LAZY)
+    @JoinColumn(name = "difficulty_id")
     private Difficulty difficulty;
+    private BigDecimal price;
+    private String image;
+
+
+    public Game(){}
 
     public Game(Builder builder) {
         this.id = builder.id;
@@ -44,7 +60,7 @@ public class Game implements Serializable {
         private int minPlayers;
         private int maxPlayers;
         private String playDuration;
-        private float price;
+        private BigDecimal  price;
         private String image;
         private Category category;
         private Difficulty difficulty;
@@ -89,7 +105,7 @@ public class Game implements Serializable {
             this.playDuration = playDuration;
             return this;
         }
-        public Builder withPrice(float price) {
+        public Builder withPrice(BigDecimal  price) {
             this.price = price;
             return this;
         }
@@ -202,11 +218,11 @@ public class Game implements Serializable {
         this.playDuration = playDuration;
     }
 
-    public float getPrice() {
+    public BigDecimal  getPrice() {
         return price;
     }
 
-    public void setPrice(float price) {
+    public void setPrice(BigDecimal  price) {
         this.price = price;
     }
 

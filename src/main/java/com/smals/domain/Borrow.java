@@ -1,17 +1,25 @@
 package com.smals.domain;
 
-import com.fasterxml.jackson.annotation.JsonAutoDetect;
-
+import javax.persistence.*;
 import java.io.Serializable;
-import java.time.LocalDate;
 import java.util.Date;
 
+@Entity
 public class Borrow implements Serializable {
 
+    @Id @GeneratedValue
     private Integer id;
+    @OneToOne (fetch = FetchType.LAZY)
+    @JoinColumn(name = "game_id")
     private Game game;
+    @OneToOne (fetch = FetchType.LAZY)
+    @JoinColumn(name = "borrower_id")
     private Borrower borrower;
+    @Temporal(TemporalType.DATE)
+    @Column(name = "borrow_date", nullable = false)
     private Date borrowDate;
+    @Temporal(TemporalType.DATE)
+    @Column(name = "return_date")
     private Date returnDate;
 
     public Borrow(Integer id, Game game, Borrower borrower, Date borrowDate, Date returnDate) {
