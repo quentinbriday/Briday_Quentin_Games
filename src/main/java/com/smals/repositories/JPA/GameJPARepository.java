@@ -21,10 +21,10 @@ public class GameJPARepository {
 
     public Game findGameByName(String name){
         return entityManager
-                .createQuery("SELECT g FROM Game g WHERE g.game_name LIKE :name", Game.class)
+                .createQuery("SELECT g FROM Game g WHERE g.gameName LIKE :name", Game.class)
                 .setParameter("name", "%"+name+"%")
-                //.setLockMode(LockModeType.OPTIMISTIC_FORCE_INCREMENT)
-                .getSingleResult();
+                .getResultList()
+                .get(0);
     }
 
     public List<Game> findAllGames(){

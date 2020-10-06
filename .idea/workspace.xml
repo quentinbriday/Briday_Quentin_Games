@@ -9,33 +9,22 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="1521c851-f402-4ca0-8e8b-d2c4c7cfb8db" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/resources/META-INF/data.sql" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/META-INF/resources.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+    <list default="true" id="1521c851-f402-4ca0-8e8b-d2c4c7cfb8db" name="Default Changelist" comment="commit message">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/smals/commands/ShowFirstGameCategoryCommand.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/smals/commands/ShowFirstGameCategoryCommand.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/smals/domain/Borrow.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/smals/domain/Borrow.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/smals/domain/Borrower.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/smals/domain/Borrower.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/smals/domain/Category.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/smals/domain/Category.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/smals/domain/Difficulty.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/smals/domain/Difficulty.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/smals/domain/Game.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/smals/domain/Game.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/smals/repositories/BorrowJDBCRepository.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/smals/repositories/BorrowerJDBCRepository.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/smals/repositories/CategoryJDBCRepository.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/smals/repositories/GameJDBCRepository.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/smals/restservices/GameRestService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/smals/restservices/GameRestService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/smals/repositories/JPA/CategoryJPARepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/smals/repositories/JPA/CategoryJPARepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/smals/repositories/JPA/GameJPARepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/smals/repositories/JPA/GameJPARepository.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/smals/services/BorrowService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/smals/services/BorrowService.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/smals/services/BorrowerService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/smals/services/BorrowerService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/smals/services/CategoryService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/smals/services/CategoryService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/smals/services/GameService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/smals/services/GameService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/META-INF/persistence.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/META-INF/persistence.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/com/smals/domain/Borrow.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/smals/domain/Borrow.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/com/smals/domain/Borrower.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/smals/domain/Borrower.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/smals/domain/Category.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/smals/domain/Category.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/com/smals/domain/Difficulty.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/smals/domain/Difficulty.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/com/smals/domain/Game.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/smals/domain/Game.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/smals/repositories/GameJDBCRepository.class" beforeDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -91,7 +80,7 @@
     <option name="FILTER_ERRORS" value="false" />
     <option name="FILTER_WARNINGS" value="false" />
     <option name="FILTER_INFO" value="false" />
-    <option name="FILTER_DEBUG" value="true" />
+    <option name="FILTER_DEBUG" value="false" />
     <option name="CUSTOM_FILTER" />
   </component>
   <component name="MavenImportPreferences">
@@ -247,7 +236,7 @@
       <workItem from="1601570583588" duration="10074000" />
       <workItem from="1601621700145" duration="3701000" />
       <workItem from="1601629711314" duration="47000" />
-      <workItem from="1601968104242" duration="24464000" />
+      <workItem from="1601968104242" duration="29079000" />
     </task>
     <servers />
   </component>
@@ -266,6 +255,10 @@
         </entry>
       </map>
     </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="commit message" />
+    <option name="LAST_COMMIT_MESSAGE" value="commit message" />
   </component>
   <component name="WindowStateProjectService">
     <state x="446" y="49" key="#com.intellij.ide.util.MemberChooser" timestamp="1601394621660">
@@ -313,16 +306,6 @@
           <url>file://$PROJECT_DIR$/src/main/java/com/smals/services/GameService.java</url>
           <line>29</line>
           <option name="timeStamp" value="1" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/com/smals/repositories/JPA/GameJPARepository.java</url>
-          <line>31</line>
-          <option name="timeStamp" value="2" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/com/smals/repositories/JPA/GameJPARepository.java</url>
-          <line>30</line>
-          <option name="timeStamp" value="3" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>

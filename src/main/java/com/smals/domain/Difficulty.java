@@ -21,6 +21,8 @@ public class Difficulty implements Serializable {
         this.id = id;
     }
 
+    public Difficulty(){}
+
     public Difficulty(String difficultyName) {
         this.difficultyName = difficultyName;
     }

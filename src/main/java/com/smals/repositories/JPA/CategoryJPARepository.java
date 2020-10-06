@@ -15,9 +15,6 @@ public class CategoryJPARepository {
 
     public Category findCategoryById(int id){
         return entityManager
-                .createQuery("SELECT c FROM Category c WHERE c.id = :id", Category.class)
-                .setParameter("id", id)
-                //.setLockMode(LockModeType.OPTIMISTIC_FORCE_INCREMENT)
-                .getSingleResult();
+                .find(Category.class, id);
     }
 }

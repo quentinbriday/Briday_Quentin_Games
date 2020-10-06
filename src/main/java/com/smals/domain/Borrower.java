@@ -21,6 +21,8 @@ public class Borrower implements Serializable {
     private String telephone;
     private String email;
 
+    public Borrower(){}
+
     public Borrower(String borrowerName, String city) {
         this.borrowerName = borrowerName;
         this.city = city;

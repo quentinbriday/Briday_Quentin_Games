@@ -20,12 +20,11 @@ public class Game implements Serializable {
     private int minPlayers;
     @Column(name = "max_players")
     private int maxPlayers;
-    @OneToOne (fetch = FetchType.LAZY)
+    @OneToOne (fetch = FetchType.EAGER)
     @JoinColumn(name = "category_id")
     private Category category;
     @Column(name = "play_duration")
     private String playDuration;
-    @OneToOne (fetch = FetchType.LAZY)
     @JoinColumn(name = "difficulty_id")
     private Difficulty difficulty;
     private BigDecimal price;
