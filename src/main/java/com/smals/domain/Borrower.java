@@ -5,6 +5,7 @@ import java.io.Serializable;
 
 @Entity
 public class Borrower implements Serializable {
+    //TRAINER: very good noticing it, if you have a class with a lot of fields then a builder pattern can be handy.
     //TODO : Add builder pattern
 
     @Id @GeneratedValue

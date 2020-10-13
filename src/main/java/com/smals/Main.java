@@ -6,7 +6,9 @@ import com.smals.commands.GamesWorker;
 import java.util.*;
 
 import static java.lang.Thread.sleep;
-
+//TRAINER: General feedback, your project looks really good.
+// You know where you can improve things and i have the feeling you know how it all works :) very good !
+// an optional improvement for the REST services is that you can use DTO objects. It's a common practise in projects.
 public class Main {
     private static final String ANSI_RESET = "\u001B[0m";
     private static final String ANSI_BLUE = "\u001B[34m";
