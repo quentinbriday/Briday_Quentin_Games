@@ -11,6 +11,7 @@ import java.util.*;
 public class Difficulty implements Serializable {
 
     @Column(name = "difficulty_name", nullable = false)
+    //TRAINER: Yes that would be a good improvement
     //Maybe using @Enumerated ?
     private String difficultyName;
     @Id @GeneratedValue

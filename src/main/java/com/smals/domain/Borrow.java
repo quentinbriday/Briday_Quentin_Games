@@ -18,6 +18,8 @@ public class Borrow implements Serializable {
     @Temporal(TemporalType.DATE)
     @Column(name = "borrow_date", nullable = false)
     private Date borrowDate;
+
+    //TRAINER: you can also use LocalDate from the java.time package which is newer
     @Temporal(TemporalType.DATE)
     @Column(name = "return_date")
     private Date returnDate;
