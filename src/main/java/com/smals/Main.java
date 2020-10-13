@@ -14,7 +14,6 @@
 //    private static boolean loop = true;
 //
 //    public static void main(String[] args) {
-//        //TODO : Dealing with Scanners problems...
 //        System.out.println("----- Briday_Quentin_Games, by Briday Quentin -----");
 //        start();
 //        scanner.close();

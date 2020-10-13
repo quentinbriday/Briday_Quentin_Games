@@ -8,7 +8,7 @@ import java.util.Date;
 public class Borrow implements Serializable {
 
     @Id
-    @GeneratedValue(strategy = GenerationType.SEQUENCE)
+    @GeneratedValue(strategy = GenerationType.IDENTITY)
     private Integer id;
     @OneToOne(fetch = FetchType.EAGER)
     @JoinColumn(name = "game_id")

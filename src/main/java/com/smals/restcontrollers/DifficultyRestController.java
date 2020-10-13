@@ -2,6 +2,7 @@ package com.smals.restcontrollers;
 
 import com.smals.domain.Difficulty;
 import com.smals.services.DifficultyServiceImpl;
+import javassist.NotFoundException;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.PathVariable;
 import org.springframework.web.bind.annotation.RequestMapping;
@@ -25,7 +26,7 @@ public class DifficultyRestController {
     }
 
     @GetMapping(path = "/{id}")
-    public Difficulty findById(@PathVariable("id") int id){
+    public Difficulty findById(@PathVariable("id") int id) throws NotFoundException {
         return difficultyService.findById(id);
     }
 }

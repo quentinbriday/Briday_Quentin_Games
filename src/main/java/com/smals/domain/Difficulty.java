@@ -13,7 +13,7 @@ public class Difficulty implements Serializable {
     @Enumerated(EnumType.STRING)
     private DifficultyType difficultyName;
     @Id
-    @GeneratedValue(strategy = GenerationType.SEQUENCE)
+    @GeneratedValue(strategy = GenerationType.IDENTITY)
     private Integer id;
 
     public Difficulty(DifficultyType difficultyName, Integer id) {

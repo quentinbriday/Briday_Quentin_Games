@@ -1,8 +1,10 @@
 package com.smals.restcontrollers;
 
 import com.smals.domain.Borrow;
+import com.smals.dto.BorrowDto;
 import com.smals.services.BorrowServiceImpl;
 import javassist.NotFoundException;
+import org.modelmapper.ModelMapper;
 import org.springframework.web.bind.annotation.*;
 
 import java.util.List;
@@ -33,13 +35,15 @@ public class BorrowRestController {
     }
 
     @PostMapping(path = "")
-    public Borrow save(@RequestBody Borrow borrow){
+    public Borrow save(@RequestBody BorrowDto borrowDto){
+        Borrow borrow = new ModelMapper().map(borrowDto, Borrow.class);
         borrowService.save(borrow);
         return borrow;
     }
 
     @PutMapping(path = "")
-    public int update(@RequestBody Borrow borrow){
+    public int update(@RequestBody BorrowDto borrowDto){
+        Borrow borrow = new ModelMapper().map(borrowDto, Borrow.class);
         borrowService.save(borrow);
         return borrow.getId();
     }

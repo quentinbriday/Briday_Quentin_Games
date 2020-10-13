@@ -1,0 +1,4 @@
+TODO : Verify that the methods that interacts with the Difficulty Entity works even in spring boot
+TODO : Add @Transactional when needed and a @Version in Entities
+TODO : Maybe look for a better configuration ? Also put my password and username in a other file and add it to gitignore
+TODO : Add some personalized requests to the repositories in Spring Date (findByName, etc...)

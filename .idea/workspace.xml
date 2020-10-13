@@ -10,69 +10,22 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="1521c851-f402-4ca0-8e8b-d2c4c7cfb8db" name="Default Changelist" comment="commit message">
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/smals/SpringMain.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/smals/configurations/GamesConfig.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/smals/dto/CategoryDto.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/smals/dto/DifficultyDto.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/smals/dto/GameDto.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/smals/repositories/GenericCrudRepository.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/smals/repositories/JPA/BorrowerRepositoryImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/smals/repositories/JPA/CategoryRepositoryImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/smals/repositories/JPA/DifficultyRepositoryImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/smals/repositories/SPRINGDATA/BorrowRepository.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/smals/repositories/SPRINGDATA/BorrowerRepository.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/smals/repositories/SPRINGDATA/CategoryRepository.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/smals/repositories/SPRINGDATA/DifficultyRepository.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/smals/repositories/SPRINGDATA/GameRepository.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/smals/restcontrollers/BorrowRestController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/smals/restcontrollers/CategoryRestController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/smals/restcontrollers/DifficultyRestController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/smals/restcontrollers/GameRestController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/smals/services/BorrowServiceImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/smals/services/CategoryServiceImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/smals/services/DifficultyServiceImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/smals/services/GameServiceImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/smals/services/GenericCrudService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/smals/services/jeeservices/BorrowService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/smals/services/jeeservices/BorrowerService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/smals/services/jeeservices/CategoryService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/smals/services/jeeservices/GameService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/config/application.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/TODO.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/smals/dto/BorrowDto.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/smals/dto/BorrowerDto.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/smals/restcontrollers/BorrowerRestController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/smals/services/BorrowerServiceImpl.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/smals/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/smals/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/smals/commands/AdancedSearchDifficultyCommand.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/smals/commands/AdancedSearchDifficultyCommand.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/smals/commands/CommandOptions.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/smals/commands/CommandOptions.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/smals/commands/GamesWorker.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/smals/commands/GamesWorker.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/smals/commands/ShowAllGamesCommand.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/smals/commands/ShowAllGamesCommand.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/smals/commands/ShowBorrowedGamesCommand.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/smals/commands/ShowBorrowedGamesCommand.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/smals/commands/ShowChoiceGameCommand.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/smals/commands/ShowChoiceGameCommand.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/smals/commands/ShowGameAndChooseCommand.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/smals/commands/ShowGameAndChooseCommand.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/smals/domain/Borrow.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/smals/domain/Borrow.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/smals/domain/Borrower.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/smals/domain/Borrower.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/smals/domain/Category.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/smals/domain/Category.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/smals/domain/Difficulty.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/smals/domain/Difficulty.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/smals/domain/Game.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/smals/domain/Game.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/smals/domain/enums/DifficultyType2.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/smals/domain/enums/DifficultyType.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/smals/repositories/JDBC/BorrowJDBCRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/smals/repositories/JDBC/BorrowJDBCRepository.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/smals/repositories/JDBC/BorrowerJDBCRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/smals/repositories/JDBC/BorrowerJDBCRepository.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/smals/repositories/JDBC/CategoryJDBCRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/smals/repositories/JDBC/CategoryJDBCRepository.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/smals/repositories/JDBC/GameJDBCRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/smals/repositories/JDBC/GameJDBCRepository.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/smals/repositories/JPA/BorrowJPARepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/smals/repositories/JPA/BorrowRepositoryImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/smals/repositories/JPA/BorrowerJPARepository.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/smals/repositories/JPA/CategoryJPARepository.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/smals/repositories/JPA/GameJPARepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/smals/repositories/JPA/GameRepositoryImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/smals/restservices/BorrowRestService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/smals/restservices/BorrowRestService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/smals/restservices/BorrowerRestService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/smals/restservices/BorrowerRestService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/smals/restservices/CategoryRestService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/smals/restservices/CategoryRestService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/smals/restservices/GameRestService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/smals/restservices/GameRestService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/smals/services/BorrowService.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/smals/services/BorrowerService.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/smals/services/CategoryService.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/smals/services/GameService.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/smals/Main.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/smals/restcontrollers/BorrowRestController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/smals/restcontrollers/BorrowRestController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/smals/restcontrollers/CategoryRestController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/smals/restcontrollers/CategoryRestController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/smals/restcontrollers/DifficultyRestController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/smals/restcontrollers/DifficultyRestController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/META-INF/data.sql" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/META-INF/data.sql" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/com/smals/domain/Borrow.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/smals/domain/Borrow.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/com/smals/domain/Borrower.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/smals/domain/Borrower.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/com/smals/domain/Category.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/smals/domain/Category.class" afterDir="false" />
@@ -163,6 +116,7 @@
       <recent name="com.smals.domain.commands" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\qub\IdeaProjects\Briday_Quentin_Games\src\main\java" />
       <recent name="C:\Users\qub\IdeaProjects\Briday_Quentin_Games\src\main\resources\META-INF" />
       <recent name="C:\Users\qub\IdeaProjects\Briday_Quentin_Games\src\main\resources" />
     </key>
@@ -309,7 +263,7 @@
       <workItem from="1601629711314" duration="47000" />
       <workItem from="1601968104242" duration="29195000" />
       <workItem from="1602061855163" duration="186000" />
-      <workItem from="1602573644181" duration="16743000" />
+      <workItem from="1602573644181" duration="19931000" />
     </task>
     <servers />
   </component>

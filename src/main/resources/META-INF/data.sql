@@ -40,11 +40,17 @@ INSERT INTO  Category VALUES (26,'quiz');
 INSERT INTO  Category VALUES (27,'strategy');
 INSERT INTO  Category VALUES (28,'running');
 
-INSERT INTO Difficulty VALUES (1,'very easy');
-INSERT INTO Difficulty VALUES (2,'easy');
-INSERT INTO Difficulty VALUES (3,'average');
-INSERT INTO Difficulty VALUES (4,'difficult');
-INSERT INTO Difficulty VALUES (5,'very difficult');
+-- INSERT INTO Difficulty VALUES (1,'very easy');
+-- INSERT INTO Difficulty VALUES (2,'easy');
+-- INSERT INTO Difficulty VALUES (3,'average');
+-- INSERT INTO Difficulty VALUES (4,'difficult');
+-- INSERT INTO Difficulty VALUES (5,'very difficult');
+
+INSERT INTO Difficulty VALUES (1,'VERY_EASY');
+INSERT INTO Difficulty VALUES (2,'EASY');
+INSERT INTO Difficulty VALUES (3,'AVERAGE');
+INSERT INTO Difficulty VALUES (4,'DIFFICULT');
+INSERT INTO Difficulty VALUES (5,'VERY_DIFFICULT');
 
 
 -- CREATE TABLE Game

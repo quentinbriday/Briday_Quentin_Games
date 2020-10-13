@@ -8,7 +8,7 @@ import java.math.BigDecimal;
 public class Game implements Serializable {
 
     @Id
-    @GeneratedValue(strategy = GenerationType.SEQUENCE)
+    @GeneratedValue(strategy = GenerationType.IDENTITY)
     private Integer id;
     @Column(name = "game_name", nullable = false)
     private String gameName;

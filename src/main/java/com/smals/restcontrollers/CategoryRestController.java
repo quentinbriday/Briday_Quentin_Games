@@ -26,7 +26,7 @@ public class CategoryRestController {
     }
 
     @GetMapping(path = "/{id}")
-    public Category findById(@PathVariable("id") int id){
+    public Category findById(@PathVariable("id") int id) throws NotFoundException{
         return categoryService.findById(id);
     }
 

@@ -1,14 +1,16 @@
 package com.smals.domain;
 
+import lombok.Builder;
+
 import javax.persistence.*;
 import java.io.Serializable;
 
 @Entity
+@Builder //Using Lombok to implements the builder pattern
 public class Borrower implements Serializable {
-    //TODO : Add builder pattern
 
     @Id
-    @GeneratedValue(strategy = GenerationType.SEQUENCE)
+    @GeneratedValue(strategy = GenerationType.IDENTITY)
     private Integer id;
     @Column(name = "borrower_name", nullable = false)
     private String borrowerName;

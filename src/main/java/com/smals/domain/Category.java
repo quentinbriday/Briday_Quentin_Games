@@ -9,7 +9,7 @@ public class Category implements Serializable {
     @Column(name = "category_name", nullable = false)
     private String categoryName;
     @Id
-    @GeneratedValue(strategy = GenerationType.SEQUENCE)
+    @GeneratedValue(strategy = GenerationType.IDENTITY)
     private Integer id;
 
     public Category() {
