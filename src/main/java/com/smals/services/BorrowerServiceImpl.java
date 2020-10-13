@@ -15,6 +15,10 @@ public class BorrowerServiceImpl implements GenericCrudService<Borrower> {
         this.borrowerRepository = borrowerRepository;
     }
 
+    public List<Borrower> findAllByName(String borrowerName){
+        return borrowerRepository.findAllByBorrowerNameContainingOrderByBorrowerName(borrowerName);
+    }
+
     @Override
     public List<Borrower> findAll() {
         return borrowerRepository.findAll();

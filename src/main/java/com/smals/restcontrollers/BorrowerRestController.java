@@ -29,6 +29,11 @@ public class BorrowerRestController {
         return borrowerService.findById(id);
     }
 
+    @GetMapping(path = "/name/{name}")
+    public List<Borrower> findAllByName(@PathVariable("name") String borrowerName){
+        return borrowerService.findAllByName(borrowerName);
+    }
+
     @PostMapping(path = "")
     public Borrower save(@RequestBody BorrowerDto borrowerDto){
         Borrower borrower = new ModelMapper().map(borrowerDto, Borrower.class);

@@ -1,6 +1,7 @@
 package com.smals.services;
 
 import com.smals.domain.Game;
+import com.smals.domain.enums.DifficultyType;
 import com.smals.repositories.GenericCrudRepository;
 import com.smals.repositories.SPRINGDATA.GameRepository;
 import org.springframework.stereotype.Service;
@@ -14,6 +15,18 @@ public class GameServiceImpl implements GenericCrudService<Game> {
 
     public GameServiceImpl(GameRepository gameRepository) {
         this.gameRepository = gameRepository;
+    }
+
+    public List<Game> findAllByName(String gameName){
+        return gameRepository.findAllByGameNameContaining(gameName);
+    }
+
+    public List<Game> findAllByDifficulty(DifficultyType difficultyType){
+        return gameRepository.findAllByDifficulty_DifficultyName(difficultyType);
+    }
+
+    public List<Game> findAllByDifficultyGreaterThan(DifficultyType difficultyType){
+        return gameRepository.findGameWithDifficultyGreaterThan(difficultyType);
     }
 
     @Override
