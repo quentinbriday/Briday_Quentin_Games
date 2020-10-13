@@ -13,7 +13,7 @@ public class ShowGameAndChooseCommand implements Command {
     @Override
     public void execute() {
         List<Game> games = new GameService().findAllGames();
-        for (Game g : games){
+        for (Game g : games) {
             System.out.println(g.getGameName() + ", category : " + g.getCategory().getCategoryName());
         }
         System.out.println("Now please, enter part of the name of the game you choose : ");
@@ -22,10 +22,9 @@ public class ShowGameAndChooseCommand implements Command {
         try {
             String gameName = reader.readLine();
             Optional<Game> optional = games.stream().filter(g -> g.getGameName().toUpperCase().contains(gameName.toUpperCase())).findFirst();
-            if (optional.isPresent()){
+            if (optional.isPresent()) {
                 System.out.println(optional.get());
-            }
-            else{
+            } else {
                 System.err.println("There is no game with a name matching " + gameName);
             }
         } catch (IOException e) {

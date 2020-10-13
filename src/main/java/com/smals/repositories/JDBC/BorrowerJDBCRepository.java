@@ -19,7 +19,7 @@ public class BorrowerJDBCRepository {
             preparedStatement.setInt(1, id);
             preparedStatement.execute();
             ResultSet resultSet = preparedStatement.getResultSet();
-            if (resultSet.next()){
+            if (resultSet.next()) {
                 return new Borrower(resultSet.getString("borrower_name"), resultSet.getString("city"));
             }
         } catch (Exception e) {

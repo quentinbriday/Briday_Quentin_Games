@@ -27,7 +27,7 @@ public class BorrowJDBCRepository {
                 "LEFT OUTER JOIN Borrower as b2 ON b2.id = b.borrower_id ")) {
             preparedStatement.execute();
             ResultSet resultSet = preparedStatement.getResultSet();
-            while (resultSet.next()){
+            while (resultSet.next()) {
                 Game game = new Game.Builder(resultSet.getString("g.game_name")).build();
                 Borrower borrower = new Borrower(resultSet.getString("b2.borrower_name"));
                 Borrow borrow = new Borrow(resultSet.getInt("id"), game, borrower, resultSet.getDate("borrow_date"), resultSet.getDate("return_date"));

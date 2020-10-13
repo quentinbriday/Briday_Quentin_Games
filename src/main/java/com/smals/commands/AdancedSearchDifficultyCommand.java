@@ -15,7 +15,7 @@ public class AdancedSearchDifficultyCommand implements Command {
         List<Game> games = new GameService().findAllGames();
         boolean loop = true;
         Scanner scanner = new Scanner(System.in);
-        while(loop){
+        while (loop) {
             System.out.println("Choose a difficulty level (enter the number) :");
             Arrays.stream(DifficultyType2.values())
                     .forEach(difficultyType2 -> System.out.println(difficultyType2.ordinal() + ". " + difficultyType2.getDescription()));

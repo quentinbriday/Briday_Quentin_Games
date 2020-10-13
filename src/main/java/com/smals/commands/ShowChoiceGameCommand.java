@@ -20,10 +20,9 @@ public class ShowChoiceGameCommand implements Command {
             e.printStackTrace();
         }
         Game game = new GameService().findGameByName(gameName);
-        if (game == null){
+        if (game == null) {
             System.err.println("The game you're searching doesn't exist in our database.");
-        }
-        else{
+        } else {
             System.out.println(game.getGameName() + " : \n   publisher : " + game.getEditor()
                     + "\n   age : " + game.getAge()
                     + "\n   price : " + game.getPrice());

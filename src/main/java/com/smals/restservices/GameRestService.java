@@ -18,21 +18,21 @@ public class GameRestService {
 
     @GET
     @Produces("application/json")
-    public List<Game> findGames(){
+    public List<Game> findGames() {
         return gameService.findAllGames();
     }
 
     @GET
     @Produces("application/json")
     @Path("findByName/{gameName}")
-    public Game findGameByName(@PathParam("gameName") String gameName){
+    public Game findGameByName(@PathParam("gameName") String gameName) {
         return gameService.findGameByName(gameName);
     }
 
     @GET
     @Produces("application/json")
     @Path("findById/{id}")
-    public Game findGameById(@PathParam("id") int id){
+    public Game findGameById(@PathParam("id") int id) {
         return gameService.findGameById(id);
     }
 }

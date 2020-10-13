@@ -7,7 +7,8 @@ import java.math.BigDecimal;
 @Entity
 public class Game implements Serializable {
 
-    @Id @GeneratedValue
+    @Id
+    @GeneratedValue(strategy = GenerationType.SEQUENCE)
     private Integer id;
     @Column(name = "game_name", nullable = false)
     private String gameName;
@@ -20,18 +21,20 @@ public class Game implements Serializable {
     private int minPlayers;
     @Column(name = "max_players")
     private int maxPlayers;
-    @OneToOne (fetch = FetchType.EAGER)
+    @OneToOne(fetch = FetchType.EAGER)
     @JoinColumn(name = "category_id")
     private Category category;
     @Column(name = "play_duration")
     private String playDuration;
+    @OneToOne(fetch = FetchType.EAGER)
     @JoinColumn(name = "difficulty_id")
     private Difficulty difficulty;
     private BigDecimal price;
     private String image;
 
 
-    public Game(){}
+    public Game() {
+    }
 
     public Game(Builder builder) {
         this.id = builder.id;
@@ -59,7 +62,7 @@ public class Game implements Serializable {
         private int minPlayers;
         private int maxPlayers;
         private String playDuration;
-        private BigDecimal  price;
+        private BigDecimal price;
         private String image;
         private Category category;
         private Difficulty difficulty;
@@ -87,6 +90,7 @@ public class Game implements Serializable {
             this.yearEdition = yearEdition;
             return this;
         }
+
         public Builder withAge(String age) {
             this.age = age;
             return this;
@@ -96,26 +100,32 @@ public class Game implements Serializable {
             this.minPlayers = minPlayers;
             return this;
         }
+
         public Builder withMaxPlayers(int maxPlayers) {
             this.maxPlayers = maxPlayers;
             return this;
         }
+
         public Builder withPlayDuration(String playDuration) {
             this.playDuration = playDuration;
             return this;
         }
-        public Builder withPrice(BigDecimal  price) {
+
+        public Builder withPrice(BigDecimal price) {
             this.price = price;
             return this;
         }
+
         public Builder withImage(String image) {
             this.image = image;
             return this;
         }
+
         public Builder withCategory(Category category) {
             this.category = category;
             return this;
         }
+
         public Builder withDifficulty(Difficulty difficulty) {
             this.difficulty = difficulty;
             return this;
@@ -217,11 +227,11 @@ public class Game implements Serializable {
         this.playDuration = playDuration;
     }
 
-    public BigDecimal  getPrice() {
+    public BigDecimal getPrice() {
         return price;
     }
 
-    public void setPrice(BigDecimal  price) {
+    public void setPrice(BigDecimal price) {
         this.price = price;
     }
 

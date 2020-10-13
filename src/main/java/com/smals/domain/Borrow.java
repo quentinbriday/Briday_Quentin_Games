@@ -7,12 +7,13 @@ import java.util.Date;
 @Entity
 public class Borrow implements Serializable {
 
-    @Id @GeneratedValue
+    @Id
+    @GeneratedValue(strategy = GenerationType.SEQUENCE)
     private Integer id;
-    @OneToOne (fetch = FetchType.EAGER)
+    @OneToOne(fetch = FetchType.EAGER)
     @JoinColumn(name = "game_id")
     private Game game;
-    @OneToOne (fetch = FetchType.EAGER)
+    @OneToOne(fetch = FetchType.EAGER)
     @JoinColumn(name = "borrower_id")
     private Borrower borrower;
     @Temporal(TemporalType.DATE)
@@ -22,7 +23,8 @@ public class Borrow implements Serializable {
     @Column(name = "return_date")
     private Date returnDate;
 
-    public Borrow(){}
+    public Borrow() {
+    }
 
     public Borrow(Integer id, Game game, Borrower borrower, Date borrowDate, Date returnDate) {
         this.id = id;

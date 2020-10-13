@@ -9,7 +9,7 @@ public class ShowAllGamesCommand implements Command {
     @Override
     public void execute() {
         List<Game> games = new GameService().findAllGames();
-        for (Game g : games){
+        for (Game g : games) {
             System.out.println(g.getGameName() + " :\n   "
                     + "editor : " + g.getEditor() + "\n   "
                     + "price : " + g.getPrice());

@@ -8,10 +8,12 @@ public class Category implements Serializable {
 
     @Column(name = "category_name", nullable = false)
     private String categoryName;
-    @Id @GeneratedValue
+    @Id
+    @GeneratedValue(strategy = GenerationType.SEQUENCE)
     private Integer id;
 
-    public Category(){}
+    public Category() {
+    }
 
     public Category(String categoryName, Integer id) {
         this.categoryName = categoryName;

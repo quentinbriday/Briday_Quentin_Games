@@ -18,7 +18,7 @@ public class BorrowerRestService {
     @GET
     @Produces("application/json")
     @Path("{id}")
-    public Borrower findBorrowerById(@PathParam("id") int id){
+    public Borrower findBorrowerById(@PathParam("id") int id) {
         return borrowerService.findBorrowerById(id);
     }
 }

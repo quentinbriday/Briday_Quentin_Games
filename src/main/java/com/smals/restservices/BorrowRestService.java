@@ -18,8 +18,9 @@ public class BorrowRestService {
 
     @GET
     @Produces("application/json")
-    public GenericEntity<List<Borrow>> findAllBorrows(){
+    public GenericEntity<List<Borrow>> findAllBorrows() {
         //Without this casting, the application has trouble ton serialize/deserialize the List of Borrow
-        return new GenericEntity<List<Borrow>>(borrowService.findAllBorrow()){};
+        return new GenericEntity<List<Borrow>>(borrowService.findAllBorrow()) {
+        };
     }
 }

@@ -15,7 +15,7 @@ public class GameJDBCRepository {
         return instance;
     }
 
-    public Game getGame(int id){
+    public Game getGame(int id) {
         try (PreparedStatement preparedStatement = JDBCConnector.createConnection().prepareStatement("select * from Game as g " +
                 "LEFT OUTER JOIN Category as c ON c.id = g.category_id " +
                 "LEFT OUTER JOIN Difficulty as d ON d.id = g.difficulty_id " +
@@ -23,7 +23,7 @@ public class GameJDBCRepository {
             preparedStatement.setInt(1, id);
             preparedStatement.execute();
             ResultSet resultSet = preparedStatement.getResultSet();
-            if (resultSet.next()){
+            if (resultSet.next()) {
                 Category category = new Category(resultSet.getString("c.category_name"), resultSet.getInt("c.id"));
                 Difficulty difficulty = new Difficulty(resultSet.getString("d.difficulty_name"), resultSet.getInt("id"));
                 Game game = new Game.Builder(resultSet.getString("game_name"))
@@ -56,7 +56,7 @@ public class GameJDBCRepository {
             preparedStatement.setString(1, "%" + gameName + "%");
             preparedStatement.execute();
             ResultSet resultSet = preparedStatement.getResultSet();
-            if (resultSet.next()){
+            if (resultSet.next()) {
                 Category category = new Category(resultSet.getString("c.category_name"), resultSet.getInt("c.id"));
                 Difficulty difficulty = new Difficulty(resultSet.getString("d.difficulty_name"), resultSet.getInt("id"));
                 Game game = new Game.Builder(resultSet.getString("game_name"))
@@ -88,10 +88,10 @@ public class GameJDBCRepository {
                 "LEFT OUTER JOIN Difficulty as d ON d.id = g.difficulty_id ")) {
             preparedStatement.execute();
             ResultSet resultSet = preparedStatement.getResultSet();
-            while (resultSet.next()){
+            while (resultSet.next()) {
                 Category category = new Category(resultSet.getString("c.category_name"), resultSet.getInt("c.id"));
                 Difficulty difficulty = new Difficulty(resultSet.getString("d.difficulty_name"), resultSet.getInt("d.id"));
-                games.add( new Game.Builder(resultSet.getString("game_name"))
+                games.add(new Game.Builder(resultSet.getString("game_name"))
                         .withId(resultSet.getInt("id"))
                         .withEditor(resultSet.getString("editor"))
                         .withAuthor(resultSet.getString("author"))

@@ -1,7 +1,6 @@
 package com.smals.domain;
 
 import com.smals.domain.enums.DifficultyType;
-import com.smals.domain.enums.DifficultyType2;
 
 import javax.persistence.*;
 import java.io.Serializable;
@@ -10,24 +9,26 @@ import java.util.*;
 @Entity
 public class Difficulty implements Serializable {
 
-    @Column(name = "difficulty_name", nullable = false)
-    //Maybe using @Enumerated ?
-    private String difficultyName;
-    @Id @GeneratedValue
+    @Column(name = "difficulty_name", nullable = false, insertable = false,updatable = false)
+    @Enumerated(EnumType.STRING)
+    private DifficultyType difficultyName;
+    @Id
+    @GeneratedValue(strategy = GenerationType.SEQUENCE)
     private Integer id;
 
-    public Difficulty(String difficultyName, Integer id) {
+    public Difficulty(DifficultyType difficultyName, Integer id) {
         this.difficultyName = difficultyName;
         this.id = id;
     }
 
-    public Difficulty(){}
+    public Difficulty() {
+    }
 
-    public Difficulty(String difficultyName) {
+    public Difficulty(DifficultyType difficultyName) {
         this.difficultyName = difficultyName;
     }
 
-    public String getDifficultyName() {
+    public DifficultyType getDifficultyName() {
         return difficultyName;
     }
 
@@ -39,7 +40,7 @@ public class Difficulty implements Serializable {
                 '}';
     }
 
-    public void setDifficultyName(String difficultyName) {
+    public void setDifficultyName(DifficultyType difficultyName) {
         this.difficultyName = difficultyName;
     }
 
@@ -51,16 +52,7 @@ public class Difficulty implements Serializable {
         this.id = id;
     }
 
-    public static boolean equalOrMore(Difficulty d1, DifficultyType difficulty){
-        //TODO: Replace that by a system were each enum of difficulty contain a tab of less level difficulties,
-        // then search if the d1.difficulty_name is not in this tab
-        System.out.println(d1.id + " " + difficulty.getDifficultyValue());
-        return d1.id >= difficulty.getDifficultyValue();
-    }
-
-    public static boolean equalOrMore(Difficulty d1, DifficultyType2 difficulty){
-        //TODO: Replace that by a system were each enum of difficulty contain a tab of less level difficulties,
-        // then search if the d1.difficulty_name is not in this tab
+    public static boolean equalOrMore(Difficulty d1, DifficultyType difficulty) {
         List<String> strings = new ArrayList<String>(Arrays.asList(difficulty.getDifficultyValue().split(",")));
         return !strings.contains(d1.difficultyName);
     }

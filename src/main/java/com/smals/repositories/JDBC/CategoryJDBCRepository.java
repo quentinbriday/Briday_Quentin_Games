@@ -19,7 +19,7 @@ public class CategoryJDBCRepository {
             preparedStatement.setInt(1, id);
             preparedStatement.execute();
             ResultSet resultSet = preparedStatement.getResultSet();
-            if (resultSet.next()){
+            if (resultSet.next()) {
                 return new Category(resultSet.getString("category_name"), resultSet.getInt("id"));
             }
         } catch (Exception e) {

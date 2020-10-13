@@ -18,7 +18,7 @@ public class CategoryRestService {
     @GET
     @Produces("application/json")
     @Path("{id}")
-    public Category findById(@PathParam("id") int id){
+    public Category findById(@PathParam("id") int id) {
         return categoryService.findGameCategoryById(id);
     }
 }

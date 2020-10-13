@@ -7,7 +7,8 @@ import java.io.Serializable;
 public class Borrower implements Serializable {
     //TODO : Add builder pattern
 
-    @Id @GeneratedValue
+    @Id
+    @GeneratedValue(strategy = GenerationType.SEQUENCE)
     private Integer id;
     @Column(name = "borrower_name", nullable = false)
     private String borrowerName;
@@ -21,7 +22,8 @@ public class Borrower implements Serializable {
     private String telephone;
     private String email;
 
-    public Borrower(){}
+    public Borrower() {
+    }
 
     public Borrower(String borrowerName, String city) {
         this.borrowerName = borrowerName;

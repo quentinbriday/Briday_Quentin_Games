@@ -23,15 +23,13 @@ public class ShowBorrowedGamesCommand implements Command {
             System.out.print("Your research --> ");
             try {
                 String name = reader.readLine();
-                if (name.equals("exit")){
+                if (name.equals("exit")) {
                     loop = false;
-                }
-                else{
+                } else {
                     List<Borrow> tempBorrow = borrows.stream().filter(b -> b.getBorrower().getBorrowerName().toUpperCase().contains(name.toUpperCase())).collect(Collectors.toList());
-                    if (tempBorrow.isEmpty()){
+                    if (tempBorrow.isEmpty()) {
                         System.err.println("There is no borrower with this name");
-                    }
-                    else{
+                    } else {
                         columnPrintingBorrow(tempBorrow);
                     }
                 }
@@ -42,7 +40,7 @@ public class ShowBorrowedGamesCommand implements Command {
         }
     }
 
-    private static void columnPrintingBorrow(List<Borrow> borrows){
+    private static void columnPrintingBorrow(List<Borrow> borrows) {
         System.out.printf("%-30.30s  %-30.30s %-30.30s %-30.30s%n", "-- GAME --", "-- BORROWER --", "-- BORROW DATE--", "-- RETURN DATE--");
         borrows.forEach(b -> {
             System.out.printf("%-30.30s  %-30.30s %-30.30s %-30.30s%n", b.getGame().getGameName(), b.getBorrower().getBorrowerName(), b.getBorrowDate(), b.getReturnDate());
