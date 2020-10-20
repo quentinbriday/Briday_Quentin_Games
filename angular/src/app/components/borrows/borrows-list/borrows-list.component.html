@@ -10,7 +10,7 @@
   <!-- Weight Column -->
   <ng-container matColumnDef="borrower">
     <th mat-header-cell *matHeaderCellDef> Borrower</th>
-    <td mat-cell *matCellDef="let borrow"> {{borrow.borrower.borrowerName}} </td>
+    <td mat-cell *matCellDef="let borrow"> <a [routerLink]="['/borrowers', borrow.borrower.id]">{{borrow.borrower.borrowerName}}</a> </td>
   </ng-container>
 
   <!-- Weight Column -->

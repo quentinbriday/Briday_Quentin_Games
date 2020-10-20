@@ -11,7 +11,7 @@ import {BorrowersService} from '../borrowers.service';
 export class BorrowersListComponent implements OnInit {
 
   borrowers: Observable<Borrower[]>;
-  displayedColumns: string[] = ['name', 'telephone', 'email'];
+  displayedColumns: string[] = ['name', 'telephone', 'email', 'actions'];
 
   constructor(private borrowersService: BorrowersService) { }
 

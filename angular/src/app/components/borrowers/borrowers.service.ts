@@ -14,6 +14,10 @@ export class BorrowersService {
   }
 
   findAllBorrowers(): Observable<Borrower[]> {
-    return this.client.get<Borrower[]>('http://localhost:8080/borrowers');
+    return this.client.get<Borrower[]>(environment.backEndUrl + '/borrowers');
+  }
+
+  findBorrowerById(id: string): Observable<Borrower> {
+    return this.client.get<Borrower>(environment.backEndUrl + '/borrowers/' + id);
   }
 }

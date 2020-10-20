@@ -1,0 +1,15 @@
+<div class="row">
+  <div class="col s12 m7">
+    <mat-card>
+      <mat-card-title>{{borrower.borrowerName}}</mat-card-title>
+      <mat-card-content>Adress : {{borrower.houseNumber}} {{borrower.busNumber}}, {{borrower.street}}</mat-card-content>
+      <mat-card-content>{{borrower.postcode}} {{borrower.city}}</mat-card-content>
+      <mat-card-content>Telephone : {{borrower.telephone}}</mat-card-content>
+      <mat-card-content>Email : {{borrower.email}}</mat-card-content>
+      <div class="card-action">
+        <a class="btn" [routerLink]="['/borrowers']">Go Back</a>
+        <!--        <a class="btn" (click)="delete()">Delete the movie</a>-->
+      </div>
+    </mat-card>
+  </div>
+</div>

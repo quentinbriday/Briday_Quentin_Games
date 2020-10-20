@@ -23,6 +23,7 @@ import {HttpInterceptor} from './components/HttpInterceptor';
 import { GameDetailComponent } from './components/games/game-detail/game-detail.component';
 import { NgbModule } from '@ng-bootstrap/ng-bootstrap';
 import { BorrowsListComponent } from './components/borrows/borrows-list/borrows-list.component';
+import { BorrowerDetailComponent } from './components/borrowers/borrower-detail/borrower-detail.component';
 
 @NgModule({
   declarations: [
@@ -31,7 +32,8 @@ import { BorrowsListComponent } from './components/borrows/borrows-list/borrows-
     BorrowersListComponent,
     HomeComponent,
     GameDetailComponent,
-    BorrowsListComponent
+    BorrowsListComponent,
+    BorrowerDetailComponent
   ],
   imports: [
     BrowserModule,
