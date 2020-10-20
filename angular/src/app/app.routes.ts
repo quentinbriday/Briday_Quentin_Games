@@ -4,10 +4,12 @@ import {GamesListComponent} from './components/games/games-list/games-list.compo
 import {HomeComponent} from './components/home/home/home.component';
 import {BorrowersListComponent} from './components/borrowers/borrowers-list/borrowers-list.component';
 import {GameDetailComponent} from './components/games/game-detail/game-detail.component';
+import {BorrowsListComponent} from './components/borrows/borrows-list/borrows-list.component';
 
 export const AppRoutes: Routes = [
   { path: '', component: HomeComponent},
   { path: 'games', component: GamesListComponent},
   { path: 'games/:id', component: GameDetailComponent},
   { path: 'borrowers', component: BorrowersListComponent},
+  { path: 'borrows', component: BorrowsListComponent}
 ];

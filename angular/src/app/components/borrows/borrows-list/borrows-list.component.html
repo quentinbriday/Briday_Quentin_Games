@@ -1,0 +1,43 @@
+<h2 class="title">Borrow list</h2>
+
+<table mat-table [dataSource]="borrows | async" class="mat-elevation-z7 table-container">
+  <!-- Name Column -->
+  <ng-container matColumnDef="game">
+    <th mat-header-cell *matHeaderCellDef> Game</th>
+   <td mat-cell *matCellDef="let borrow"> <a [routerLink]="['/games', borrow.game.id]"> {{(borrow.game.gameName.length>15)? (borrow.game.gameName | slice:0:15)+'..':(borrow.game.gameName)}}</a></td>
+  </ng-container>
+
+  <!-- Weight Column -->
+  <ng-container matColumnDef="borrower">
+    <th mat-header-cell *matHeaderCellDef> Borrower</th>
+    <td mat-cell *matCellDef="let borrow"> {{borrow.borrower.borrowerName}} </td>
+  </ng-container>
+
+  <!-- Weight Column -->
+  <ng-container matColumnDef="borrowDate">
+    <th mat-header-cell *matHeaderCellDef> Borrow Date</th>
+    <td mat-cell *matCellDef="let borrow"> {{borrow.borrowDate}} </td>
+  </ng-container>
+
+  <!-- Weight Column -->
+  <ng-container matColumnDef="returnDate">
+    <th mat-header-cell *matHeaderCellDef> Return Date</th>
+    <td mat-cell *matCellDef="let borrow"> {{borrow.returnDate}} </td>
+  </ng-container>
+
+  <!-- Action Column -->
+  <ng-container matColumnDef="actions">
+    <th mat-header-cell *matHeaderCellDef> Actions</th>
+    <td mat-cell *matCellDef="let game">
+      <button type="button" mat-mini-fab color="warn">
+        <mat-icon>delete</mat-icon>
+      </button>
+      <button type="button" [routerLink]="[game.id]" mat-mini-fab color="primary">
+        <mat-icon>info</mat-icon>
+      </button>
+    </td>
+  </ng-container>
+
+  <tr mat-header-row *matHeaderRowDef="displayedColumns"></tr>
+  <tr mat-row *matRowDef="let row; columns: displayedColumns;"></tr>
+</table>

@@ -21,6 +21,8 @@ import { BorrowersListComponent } from './components/borrowers/borrowers-list/bo
 import { HomeComponent } from './components/home/home/home.component';
 import {HttpInterceptor} from './components/HttpInterceptor';
 import { GameDetailComponent } from './components/games/game-detail/game-detail.component';
+import { NgbModule } from '@ng-bootstrap/ng-bootstrap';
+import { BorrowsListComponent } from './components/borrows/borrows-list/borrows-list.component';
 
 @NgModule({
   declarations: [
@@ -28,7 +30,8 @@ import { GameDetailComponent } from './components/games/game-detail/game-detail.
     GamesListComponent,
     BorrowersListComponent,
     HomeComponent,
-    GameDetailComponent
+    GameDetailComponent,
+    BorrowsListComponent
   ],
   imports: [
     BrowserModule,
@@ -45,7 +48,8 @@ import { GameDetailComponent } from './components/games/game-detail/game-detail.
     MatSelectModule,
     MatTableModule,
     MatCardModule,
-    ReactiveFormsModule
+    ReactiveFormsModule,
+    NgbModule
   ],
   providers: [{provide: HTTP_INTERCEPTORS, useClass: HttpInterceptor, multi: true}],
   bootstrap: [HomeComponent],

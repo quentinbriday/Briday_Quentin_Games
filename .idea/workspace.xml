@@ -10,43 +10,16 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="1521c851-f402-4ca0-8e8b-d2c4c7cfb8db" name="Default Changelist" comment="commit message">
-      <change afterPath="$PROJECT_DIR$/angular/angular.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/angular/src/app/app.routes.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/angular/src/app/components/HttpInterceptor.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/angular/src/app/components/models/borrower.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/angular/src/app/components/models/game.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/angular/src/TODO.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/angular/src/app/components/models/borrows.ts" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/frontend/.browserslistrc" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/frontend/.editorconfig" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/frontend/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/frontend/README.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/frontend/angular.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/frontend/e2e/protractor.conf.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/frontend/e2e/src/app.e2e-spec.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/frontend/e2e/src/app.po.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/frontend/e2e/tsconfig.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/frontend/karma.conf.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/frontend/package-lock.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/frontend/package.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/frontend/src/app/app.component.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/frontend/src/app/app.component.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/frontend/src/app/app.component.spec.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/frontend/src/app/app.component.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/frontend/src/app/app.module.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/frontend/src/assets/.gitkeep" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/frontend/src/environments/environment.prod.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/frontend/src/environments/environment.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/frontend/src/favicon.ico" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/frontend/src/index.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/frontend/src/main.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/frontend/src/polyfills.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/frontend/src/styles.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/frontend/src/test.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/frontend/tsconfig.app.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/frontend/tsconfig.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/frontend/tsconfig.spec.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/frontend/tslint.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/smals/configurations/GamesConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/smals/configurations/GamesConfig.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/angular/angular.json" beforeDir="false" afterPath="$PROJECT_DIR$/angular/angular.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/angular/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/angular/package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/angular/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/angular/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/angular/src/app/app.module.ts" beforeDir="false" afterPath="$PROJECT_DIR$/angular/src/app/app.module.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/angular/src/app/app.routes.ts" beforeDir="false" afterPath="$PROJECT_DIR$/angular/src/app/app.routes.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/angular/src/app/components/home/home/home.component.html" beforeDir="false" afterPath="$PROJECT_DIR$/angular/src/app/components/home/home/home.component.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/angular/src/polyfills.ts" beforeDir="false" afterPath="$PROJECT_DIR$/angular/src/polyfills.ts" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -356,7 +329,7 @@
       <workItem from="1603177771138" duration="2221000" />
       <workItem from="1603180110142" duration="80000" />
       <workItem from="1603180209275" duration="1690000" />
-      <workItem from="1603181918906" duration="12462000" />
+      <workItem from="1603181918906" duration="14238000" />
     </task>
     <servers />
   </component>
