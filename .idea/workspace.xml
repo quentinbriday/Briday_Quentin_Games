@@ -11,12 +11,6 @@
   <component name="ChangeListManager">
     <list default="true" id="1521c851-f402-4ca0-8e8b-d2c4c7cfb8db" name="Default Changelist" comment="commit message">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/smals/repositories/SPRINGDATA/BorrowerRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/smals/repositories/SPRINGDATA/BorrowerRepository.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/smals/repositories/SPRINGDATA/GameRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/smals/repositories/SPRINGDATA/GameRepository.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/smals/restcontrollers/BorrowerRestController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/smals/restcontrollers/BorrowerRestController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/smals/restcontrollers/GameRestController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/smals/restcontrollers/GameRestController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/smals/services/BorrowerServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/smals/services/BorrowerServiceImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/smals/services/GameServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/smals/services/GameServiceImpl.java" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -98,13 +92,13 @@
     <property name="settings.editor.selected.configurable" value="vcs.Git" />
   </component>
   <component name="RecentsManager">
-    <key name="CreateClassDialog.RecentsKey">
-      <recent name="com.smals.domain.commands" />
-    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\Users\qub\IdeaProjects\Briday_Quentin_Games\src\main\java" />
       <recent name="C:\Users\qub\IdeaProjects\Briday_Quentin_Games\src\main\resources\META-INF" />
       <recent name="C:\Users\qub\IdeaProjects\Briday_Quentin_Games\src\main\resources" />
+    </key>
+    <key name="CreateClassDialog.RecentsKey">
+      <recent name="com.smals.domain.commands" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -221,8 +215,8 @@
     </configuration>
     <list>
       <item itemvalue="Application.Main" />
-      <item itemvalue="TomEE Server.TomEE 9.0.37" />
       <item itemvalue="Spring Boot.SpringMain" />
+      <item itemvalue="TomEE Server.TomEE 9.0.37" />
     </list>
     <recent_temporary>
       <list>
@@ -250,6 +244,10 @@
       <workItem from="1601968104242" duration="29195000" />
       <workItem from="1602061855163" duration="186000" />
       <workItem from="1602573644181" duration="21677000" />
+      <workItem from="1603116597101" duration="138000" />
+      <workItem from="1603116744096" duration="100000" />
+      <workItem from="1603121180064" duration="368000" />
+      <workItem from="1603177771138" duration="230000" />
     </task>
     <servers />
   </component>
