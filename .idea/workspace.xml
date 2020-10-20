@@ -10,7 +10,43 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="1521c851-f402-4ca0-8e8b-d2c4c7cfb8db" name="Default Changelist" comment="commit message">
+      <change afterPath="$PROJECT_DIR$/angular/angular.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/angular/src/app/app.routes.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/angular/src/app/components/HttpInterceptor.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/angular/src/app/components/models/borrower.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/angular/src/app/components/models/game.ts" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/.browserslistrc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/.editorconfig" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/angular.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/e2e/protractor.conf.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/e2e/src/app.e2e-spec.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/e2e/src/app.po.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/e2e/tsconfig.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/karma.conf.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/package-lock.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/package.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/src/app/app.component.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/src/app/app.component.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/src/app/app.component.spec.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/src/app/app.component.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/src/app/app.module.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/src/assets/.gitkeep" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/src/environments/environment.prod.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/src/environments/environment.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/src/favicon.ico" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/src/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/src/main.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/src/polyfills.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/src/styles.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/src/test.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/tsconfig.app.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/tsconfig.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/tsconfig.spec.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/tslint.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/smals/configurations/GamesConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/smals/configurations/GamesConfig.java" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -86,16 +122,27 @@
     <property name="RequestMappingsPanelWidth0" value="75" />
     <property name="RequestMappingsPanelWidth1" value="75" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
     <property name="last_opened_file_path" value="$USER_HOME$/Documents/JumpStart/smalszooapp-spring" />
+    <property name="node.js.detected.package.tslint" value="true" />
+    <property name="node.js.path.for.package.tslint" value="project" />
+    <property name="node.js.selected.package.tslint" value="(autodetect)" />
+    <property name="nodejs.protractor.protractor_package" value="$PROJECT_DIR$/angular/node_modules/protractor" />
+    <property name="nodejs_interpreter_path" value="node" />
+    <property name="nodejs_package_manager_path" value="npm" />
     <property name="settings.editor.selected.configurable" value="vcs.Git" />
+    <property name="ts.external.directory.path" value="C:\Users\qub\IdeaProjects\Briday_Quentin_Games\angular\node_modules\typescript\lib" />
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\Users\qub\IdeaProjects\Briday_Quentin_Games\src\main\java" />
       <recent name="C:\Users\qub\IdeaProjects\Briday_Quentin_Games\src\main\resources\META-INF" />
       <recent name="C:\Users\qub\IdeaProjects\Briday_Quentin_Games\src\main\resources" />
+    </key>
+    <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
+      <recent name="com.smals.repositories.utils" />
     </key>
     <key name="CreateClassDialog.RecentsKey">
       <recent name="com.smals.domain.commands" />
@@ -113,7 +160,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Spring Boot.SpringMain">
+  <component name="RunManager" selected="npm.Angular CLI Server (angular)">
     <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.smals.Main" />
       <module name="Briday_Quentin_Games" />
@@ -126,6 +173,27 @@
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
+    </configuration>
+    <configuration name="E2E Tests (angular)" type="JavaScriptTestRunnerProtractor">
+      <config-file value="$PROJECT_DIR$/angular/e2e/protractor.conf.js" />
+      <node-interpreter value="project" />
+      <protractor-package value="$PROJECT_DIR$/angular/node_modules/protractor" />
+      <protractor-options value="" />
+      <envs />
+      <scope-kind value="ALL" />
+      <method v="2" />
+    </configuration>
+    <configuration name="E2E Tests (frontendTest)" type="JavaScriptTestRunnerProtractor">
+      <config-file value="$PROJECT_DIR$/frontendTest/e2e/protractor.conf.js" />
+      <node-interpreter value="project" />
+      <protractor-package value="$PROJECT_DIR$/frontendTest/node_modules/protractor" />
+      <protractor-options value="" />
+      <envs />
+      <scope-kind value="ALL" />
+      <method v="2" />
+    </configuration>
+    <configuration name="Angular Application (frontendTest)" type="JavascriptDebugType" uri="http://localhost:4200">
+      <method v="2" />
     </configuration>
     <configuration name="SpringMain" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
       <module name="Briday_Quentin_Games" />
@@ -213,14 +281,52 @@
         </option>
       </method>
     </configuration>
+    <configuration name="Angular CLI Server (angular)" type="js.build_tools.npm">
+      <package-json value="$PROJECT_DIR$/angular/package.json" />
+      <command value="run" />
+      <scripts>
+        <script value="start" />
+      </scripts>
+      <node-interpreter value="project" />
+      <envs />
+      <method v="2" />
+    </configuration>
+    <configuration name="e2e" type="js.build_tools.npm" temporary="true" nameIsGenerated="true">
+      <package-json value="$PROJECT_DIR$/angular/package.json" />
+      <command value="run" />
+      <scripts>
+        <script value="e2e" />
+      </scripts>
+      <node-interpreter value="project" />
+      <envs />
+      <method v="2" />
+    </configuration>
+    <configuration name="ng" type="js.build_tools.npm" temporary="true" nameIsGenerated="true">
+      <package-json value="$PROJECT_DIR$/angular/package.json" />
+      <command value="run" />
+      <scripts>
+        <script value="ng" />
+      </scripts>
+      <node-interpreter value="project" />
+      <envs />
+      <method v="2" />
+    </configuration>
     <list>
       <item itemvalue="Application.Main" />
+      <item itemvalue="JavaScript Debug.Angular Application (frontendTest)" />
+      <item itemvalue="npm.Angular CLI Server (angular)" />
+      <item itemvalue="npm.ng" />
+      <item itemvalue="npm.e2e" />
+      <item itemvalue="Protractor.E2E Tests (frontendTest)" />
+      <item itemvalue="Protractor.E2E Tests (angular)" />
       <item itemvalue="Spring Boot.SpringMain" />
       <item itemvalue="TomEE Server.TomEE 9.0.37" />
     </list>
     <recent_temporary>
       <list>
         <item itemvalue="Spring Boot.SpringMain" />
+        <item itemvalue="npm.ng" />
+        <item itemvalue="npm.e2e" />
         <item itemvalue="Application.Main" />
       </list>
     </recent_temporary>
@@ -247,7 +353,10 @@
       <workItem from="1603116597101" duration="138000" />
       <workItem from="1603116744096" duration="100000" />
       <workItem from="1603121180064" duration="368000" />
-      <workItem from="1603177771138" duration="230000" />
+      <workItem from="1603177771138" duration="2221000" />
+      <workItem from="1603180110142" duration="80000" />
+      <workItem from="1603180209275" duration="1690000" />
+      <workItem from="1603181918906" duration="12462000" />
     </task>
     <servers />
   </component>

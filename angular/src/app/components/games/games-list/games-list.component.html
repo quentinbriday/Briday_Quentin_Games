@@ -1,0 +1,43 @@
+<h2 class="title">Game list</h2>
+
+<table mat-table [dataSource]="games | async" class="mat-elevation-z7 table-container">
+  <!-- Name Column -->
+  <ng-container matColumnDef="name">
+    <th mat-header-cell *matHeaderCellDef> Name</th>
+    <td mat-cell *matCellDef="let game"> {{(game.gameName.length>15)? (game.gameName | slice:0:15)+'..':(game.gameName)}} </td>
+  </ng-container>
+
+  <!-- Weight Column -->
+  <ng-container matColumnDef="category">
+    <th mat-header-cell *matHeaderCellDef> Category</th>
+    <td mat-cell *matCellDef="let game"> {{game.category.categoryName}} </td>
+  </ng-container>
+
+  <!-- Weight Column -->
+  <ng-container matColumnDef="difficulty">
+    <th mat-header-cell *matHeaderCellDef> Difficulty</th>
+    <td mat-cell *matCellDef="let game"> {{game.difficulty.difficultyName}} </td>
+  </ng-container>
+
+  <!-- Weight Column -->
+  <ng-container matColumnDef="age">
+    <th mat-header-cell *matHeaderCellDef> Age</th>
+    <td mat-cell *matCellDef="let game"> {{game.age}} </td>
+  </ng-container>
+
+  <!-- Action Column -->
+  <ng-container matColumnDef="actions">
+    <th mat-header-cell *matHeaderCellDef> Actions</th>
+    <td mat-cell *matCellDef="let game">
+      <button type="button" mat-mini-fab color="warn">
+        <mat-icon>delete</mat-icon>
+      </button>
+      <button type="button" [routerLink]="[game.id]" mat-mini-fab color="primary">
+        <mat-icon>info</mat-icon>
+      </button>
+    </td>
+  </ng-container>
+
+  <tr mat-header-row *matHeaderRowDef="displayedColumns"></tr>
+  <tr mat-row *matRowDef="let row; columns: displayedColumns;"></tr>
+</table>

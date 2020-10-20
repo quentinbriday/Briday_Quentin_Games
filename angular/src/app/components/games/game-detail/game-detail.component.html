@@ -1,0 +1,20 @@
+<div class="row">
+  <div class="col s12 m7">
+    <mat-card>
+      <mat-card-title>{{game.gameName}}</mat-card-title>
+      <mat-card-content>Editor : {{game.editor}}</mat-card-content>
+      <mat-card-content>Author : {{game.author}}</mat-card-content>
+      <mat-card-content>Age : {{game.age}}</mat-card-content>
+      <mat-card-content>Minimum - Maximum players : {{game.minPlayers}} - {{game.maxPlayers}}</mat-card-content>
+      <mat-card-content>Category : {{game.category.categoryName}}</mat-card-content>
+      <mat-card-content>Play duration : {{game.playDuration}}</mat-card-content>
+      <mat-card-content>Difficulty : {{game.difficulty.difficultyName}}</mat-card-content>
+      <mat-card-content>Price : {{game.price}}€</mat-card-content>
+      <mat-card-content>img : {{game.image}}</mat-card-content>
+      <div class="card-action">
+        <a class="btn" [routerLink]="['/games']">Go Back</a>
+<!--        <a class="btn" (click)="delete()">Delete the movie</a>-->
+      </div>
+    </mat-card>
+  </div>
+</div>
