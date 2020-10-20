@@ -23,4 +23,9 @@ export class GamesListComponent implements OnInit {
     this.games = this.gamesService.findAllGames();
   }
 
+  searchGames(name: string): void {
+    this.games = this.gamesService.searchGames(name);
+  }
+
+
 }

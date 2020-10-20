@@ -1,5 +1,5 @@
 import { Injectable } from '@angular/core';
-import {HttpClient} from '@angular/common/http';
+import {HttpClient, HttpParams} from '@angular/common/http';
 import {Game} from '../models/game';
 import {Observable} from 'rxjs';
 import {environment} from '../../../environments/environment';
@@ -18,5 +18,9 @@ export class GamesService {
 
   findGameById(id: string): Observable<Game> {
     return this.client.get<Game>(environment.backEndUrl + '/games/' + id);
+  }
+
+  searchGames(name: string): Observable<Game[]> {
+    return this.client.get<Game[]>(environment.backEndUrl + '/games/name/' + name);
   }
 }

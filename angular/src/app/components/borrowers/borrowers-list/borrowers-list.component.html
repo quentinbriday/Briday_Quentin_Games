@@ -1,5 +1,7 @@
 <h2 class="title">Borrower list</h2>
 
+<app-search (searched)="searchBorrowers($event)"></app-search>
+
 <table mat-table [dataSource]="borrowers | async" class="mat-elevation-z7 table-container">
   <!-- Name Column -->
   <ng-container matColumnDef="name">

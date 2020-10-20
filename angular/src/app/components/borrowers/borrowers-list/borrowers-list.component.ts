@@ -23,4 +23,8 @@ export class BorrowersListComponent implements OnInit {
   getBorrowers(): void{
     this.borrowers = this.borrowersService.findAllBorrowers();
   }
+
+  searchBorrowers(name: string): void {
+    this.borrowers = this.borrowersService.searchBorrowers(name);
+  }
 }

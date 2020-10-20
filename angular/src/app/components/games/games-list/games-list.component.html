@@ -1,5 +1,7 @@
 <h2 class="title">Game list</h2>
 
+<app-search (searched)="searchGames($event)"></app-search>
+
 <table mat-table [dataSource]="games | async" class="mat-elevation-z7 table-container">
   <!-- Name Column -->
   <ng-container matColumnDef="name">

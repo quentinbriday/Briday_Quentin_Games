@@ -1,0 +1,7 @@
+<form class="example-form">
+  <mat-form-field class="input-field">
+    <mat-label>Search by name</mat-label>
+    <input matInput id="title" type="text" name="name" (input)="search$.next($event.target.value)" />
+  </mat-form-field>
+</form>
+

@@ -24,6 +24,7 @@ import { GameDetailComponent } from './components/games/game-detail/game-detail.
 import { NgbModule } from '@ng-bootstrap/ng-bootstrap';
 import { BorrowsListComponent } from './components/borrows/borrows-list/borrows-list.component';
 import { BorrowerDetailComponent } from './components/borrowers/borrower-detail/borrower-detail.component';
+import { SearchComponent } from './components/search/search.component';
 
 @NgModule({
   declarations: [
@@ -33,7 +34,8 @@ import { BorrowerDetailComponent } from './components/borrowers/borrower-detail/
     HomeComponent,
     GameDetailComponent,
     BorrowsListComponent,
-    BorrowerDetailComponent
+    BorrowerDetailComponent,
+    SearchComponent
   ],
   imports: [
     BrowserModule,

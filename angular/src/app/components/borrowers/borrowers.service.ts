@@ -20,4 +20,8 @@ export class BorrowersService {
   findBorrowerById(id: string): Observable<Borrower> {
     return this.client.get<Borrower>(environment.backEndUrl + '/borrowers/' + id);
   }
+
+  searchBorrowers(name: string): Observable<Borrower[]> {
+    return this.client.get<Borrower[]>(environment.backEndUrl + '/borrowers/name/' + name);
+  }
 }
