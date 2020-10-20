@@ -1,6 +1,16 @@
 <h2 class="title">Game list</h2>
 
+<p>For the moment, you can't use both of the researches at the same time</p>
 <app-search (searched)="searchGames($event)"></app-search>
+<form class="example-form">
+  <mat-form-field appearance="fill">
+    <mat-label>Search by minimum difficulty</mat-label>
+    <mat-select name="difficulty" formControlName="difficulty">
+      <mat-option (onSelectionChange)="searchGameMinDifficulty(difficulty.difficultyName)" *ngFor="let difficulty of gameDifficulties" [value]="difficulty.difficultyName">{{difficulty.difficultyName}}</mat-option>
+    </mat-select>
+  </mat-form-field>
+</form>
+
 
 <table mat-table [dataSource]="games | async" class="mat-elevation-z7 table-container">
   <!-- Name Column -->

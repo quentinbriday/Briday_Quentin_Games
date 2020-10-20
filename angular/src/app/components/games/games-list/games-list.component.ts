@@ -1,6 +1,6 @@
 import { Component, OnInit } from '@angular/core';
 import {Observable} from 'rxjs';
-import {Game} from '../../models/game';
+import {Difficulty, Game} from '../../models/game';
 import {GamesService} from '../games.service';
 
 @Component({
@@ -11,12 +11,14 @@ import {GamesService} from '../games.service';
 export class GamesListComponent implements OnInit {
 
   games: Observable<Game[]>;
+  gameDifficulties: Difficulty[];
   displayedColumns: string[] = ['name', 'category', 'difficulty', 'age', 'actions'];
 
   constructor(private gamesService: GamesService) { }
 
   ngOnInit(): void {
     this.getGames();
+    this.gamesService.getGameDifficulties().subscribe(difficulties => this.gameDifficulties = difficulties);
   }
 
   getGames(): void{
@@ -25,6 +27,10 @@ export class GamesListComponent implements OnInit {
 
   searchGames(name: string): void {
     this.games = this.gamesService.searchGames(name);
+  }
+
+  searchGameMinDifficulty(difficulty: string): void{
+    this.games = this.gamesService.searchGamesMinDifficulty(difficulty);
   }
 
 
